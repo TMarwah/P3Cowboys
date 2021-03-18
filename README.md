@@ -6,6 +6,7 @@ GitHub Repo for the Period 3 Cowboys Team
 - Marc Humeau
 - Tanmay Marwah
 - Karam Alshaik
+- William Cherres
 
 
 ### College Board Requirements
