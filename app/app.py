@@ -5,10 +5,13 @@ Flask(__name__) establishes resources on the filesystem (aka package).
 3. static and templates are of folders that are located relative to directory of Flask execution
 """
 
-from flask import Flask
+from flask import Flask, render_template
 from y2021.tri1.app import y2021_tri1_bp
 from y2021.tri2.app import y2021_tri2_bp
 from y2021.tri3.app import y2021_tri3_bp
+import requests
+import random
+
 
 
 app = Flask(__name__)
@@ -16,10 +19,17 @@ app.register_blueprint(y2021_tri1_bp, url_prefix='/y2021/tri1')
 app.register_blueprint(y2021_tri2_bp, url_prefix='/y2021/tri2')
 app.register_blueprint(y2021_tri3_bp, url_prefix='/y2021/tri3')
 
+backgrounds = ["https://wallpaperaccess.com/full/869.jpg"]
 
 @app.route('/')
 def index():
-    return "Student Home Site"
+    #response = requests.get('https://nekos.life/api/v2/img/wallpaper')
+    #background = response.json()['url']
+    response = requests.get('https://api.quotable.io/random?maxLength=60')
+    quote = response.json()['content']
+    author = response.json()['author']
+    background = random.choice(backgrounds)
+    return render_template("home.html", background=background, quote=quote, author = author)
 
 
 if __name__ == "__main__":
