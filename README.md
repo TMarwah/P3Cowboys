@@ -15,8 +15,8 @@ Karam Alshaik | |
 NAME             | Assingment | What was Finshed|
 -------------    | --------------- | ------------- |
 William Cherres |   ||
-Allen Xu| upload page ||
-Marc Humeau| upload page ( adding on to Allen||
+Allen Xu| upload page (Back End) ||
+Marc Humeau| upload page (Front End)||
 Tanmay Marwah  | Sign up page||
 Karam Alshaik | deployment/ profile page||
 
