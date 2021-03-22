@@ -14,7 +14,7 @@ Karam Alshaik | |
 # Crossover review
 NAME             | Assingment | What was Finshed|
 -------------    | --------------- | ------------- |
-William Cherres |   ||
+William Cherres |  Home Page ||
 Allen Xu| upload page (Back End) ||
 Marc Humeau| upload page (Front End)||
 Tanmay Marwah  | Sign up page||
