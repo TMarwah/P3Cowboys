@@ -15,7 +15,7 @@ Karam Alshaik | |
 NAME             | Assingment | What was Finshed|
 -------------    | --------------- | ------------- |
 William Cherres |  Home Page ||
-Allen Xu| upload page (Back End) ||
+Allen Xu| [upload page (Back End)](https://github.com/TMarwah/P3Cowboys/projects/1#card-57452801) ||
 Marc Humeau| upload page (Front End)||
 Tanmay Marwah  | Sign up page||
 Karam Alshaik | deployment/ profile page||
