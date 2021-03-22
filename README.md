@@ -1,13 +1,7 @@
 # P3Cowboys
 GitHub Repo for the Period 3 Cowboys Team
 # Links
--  [Project Plan](https://docs.google.com/document/d/1NUglOHAQ0yPWXlH5ESuNnhjRK4Zx0Qv2SCLvOVtnDrY/edit?usp=sharing)
-# Members
-- Allen Xu
-- Marc Humeau
-- Tanmay Marwah
-- Karam Alshaik
-- William Cherres
+
 # Creators & Github Links
 NAME             | GITHUB Link |
 -------------    | --------------- |
