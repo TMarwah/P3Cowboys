@@ -11,6 +11,15 @@ Marc Humeau| https://github.com/marchumeau|
 Tanmay Marwah  | |
 Karam Alshaik | |
 
+# Crossover review
+NAME             | Assingment | What was Finshed|
+-------------    | --------------- | ------------- |
+William Cherres |   ||
+Allen Xu| upload page ||
+Marc Humeau| upload page ( adding on to Allen||
+Tanmay Marwah  | Sign up page||
+Karam Alshaik | deployment/ profile page||
+
 # Project Plan:
 - A website where you can upload adertisements for your business. (Instagram styled)
   - Ability to create accounts
