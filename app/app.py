@@ -12,8 +12,6 @@ from y2021.tri3.app import y2021_tri3_bp
 import requests
 import random
 
-
-
 app = Flask(__name__)
 app.register_blueprint(y2021_tri1_bp, url_prefix='/y2021/tri1')
 app.register_blueprint(y2021_tri2_bp, url_prefix='/y2021/tri2')
@@ -21,15 +19,21 @@ app.register_blueprint(y2021_tri3_bp, url_prefix='/y2021/tri3')
 
 backgrounds = ["https://wallpaperaccess.com/full/869.jpg"]
 
-@app.route('/')
+
+@app.route('/quote/')
 def index():
-    #response = requests.get('https://nekos.life/api/v2/img/wallpaper')
-    #background = response.json()['url']
+    # response = requests.get('https://nekos.life/api/v2/img/wallpaper')
+    # background = response.json()['url']
     response = requests.get('https://api.quotable.io/random?maxLength=60')
     quote = response.json()['content']
     author = response.json()['author']
     background = random.choice(backgrounds)
-    return render_template("home.html", background=background, quote=quote, author = author)
+    return render_template("quotepage.html", background=background, quote=quote, author=author)
+
+
+@app.route('/')
+def homepage():
+    return render_template("homepage.html")
 
 
 if __name__ == "__main__":
