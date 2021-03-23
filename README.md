@@ -21,7 +21,7 @@ Tanmay Marwah  | [Sign up page Ticket](https://github.com/TMarwah/P3Cowboys/proj
 Karam Alshaik | deployment/ profile page Ticket||
 
 # Project Plan:
-- A website where you can upload adertisements for your business. (Instagram styled)
+- A website where you can upload advertisements for your business. (Instagram styled)
   - Ability to create accounts
   - Once logged in, able to share advertisments with captions
   - Explore tab has advertisements from all authorized users
