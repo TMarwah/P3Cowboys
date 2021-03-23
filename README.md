@@ -14,7 +14,7 @@ Karam Alshaik | |
 # Crossover review
 NAME             | Assingment | What was Finshed|
 -------------    | --------------- | ------------- |
-William Cherres |  [Home Page](https://github.com/TMarwah/P3Cowboys/projects/1#card-57480117) ||
+William Cherres |  [Home Page](https://github.com/TMarwah/P3Cowboys/projects/1#card-57480117) |I was able to create a home page. The idea was to make a simple easy page where the user can easily navigate through in order to get to the their desired destination. Here is the code for the [Home page](https://github.com/TMarwah/P3Cowboys/blob/5ec57777451284357de9c705b95008fdec0bacc1/app/templates/homepage.html#L1-L35)|
 Allen Xu| [upload page (Back End)](https://github.com/TMarwah/P3Cowboys/projects/1#card-57452801) ||
 Marc Humeau| upload page (Front End)||
 Tanmay Marwah  | Sign up page||
