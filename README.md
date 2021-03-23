@@ -1,7 +1,7 @@
 # P3Cowboys
 GitHub Repo for the Period 3 Cowboys Team
 # Links
-[Project Board](https://github.com/valeriemiliteeva/BeakersTorts/projects/1)
+[Project Board](https://github.com/TMarwah/P3Cowboys/projects/1)
 # Creators & Github Links
 NAME             | GITHUB Link |
 -------------    | --------------- |
