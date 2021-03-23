@@ -1,14 +1,14 @@
 # P3Cowboys
 GitHub Repo for the Period 3 Cowboys Team
 # Links
-
+[Project Board](https://github.com/valeriemiliteeva/BeakersTorts/projects/1)
 # Creators & Github Links
 NAME             | GITHUB Link |
 -------------    | --------------- |
 William Cherres | https://github.com/BillyCherres  |
 Allen Xu| https://github.com/allenyxu |
 Marc Humeau| https://github.com/marchumeau|
-Tanmay Marwah  | |
+Tanmay Marwah  | https://github.com/TMarwah |
 Karam Alshaik | |
 
 # Crossover review
