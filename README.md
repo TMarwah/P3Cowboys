@@ -9,7 +9,7 @@ William Cherres | https://github.com/BillyCherres  |
 Allen Xu| https://github.com/allenyxu |
 Marc Humeau| https://github.com/marchumeau|
 Tanmay Marwah  | https://github.com/TMarwah |
-Karam Alshaik | |
+Karam Alshaikh |https://github.com/KaramAlshaikh |
 
 # Crossover review
 NAME             | Assingment | What was Finshed|
