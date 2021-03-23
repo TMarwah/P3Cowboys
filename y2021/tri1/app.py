@@ -10,6 +10,7 @@ y2021_tri1_bp = Blueprint('y2021_tri1', __name__,
 def index():
     return "Y2021 tri1 Home Site"
 
+
 @y2021_tri1_bp.route("/upload")
 def upload():
-    return render_template("/y2021/tri1/upload.html",)
+    return render_template("/y2021/tri1/upload.html", )

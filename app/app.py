@@ -16,6 +16,7 @@ app = Flask(__name__)
 app.register_blueprint(y2021_tri1_bp, url_prefix='/y2021/tri1')
 app.register_blueprint(y2021_tri2_bp, url_prefix='/y2021/tri2')
 app.register_blueprint(y2021_tri3_bp, url_prefix='/y2021/tri3')
+app.register_blueprint(y2021_tri3_bp, url_prefix='/y2021/tri4')
 
 backgrounds = ["https://wallpaperaccess.com/full/869.jpg"]
 
