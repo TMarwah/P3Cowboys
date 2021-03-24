@@ -13,4 +13,4 @@ def index():
 
 @Cowboys_Allen_bp.route("/upload")
 def upload():
-    return render_template("/y2021/tri1/upload.html", )
+    return render_template("upload.html")
