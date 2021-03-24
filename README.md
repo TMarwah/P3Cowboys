@@ -1,7 +1,7 @@
 # P3Cowboys
 GitHub Repo for the Period 3 Cowboys Team
 # Links
-[Project Board](https://github.com/valeriemiliteeva/BeakersTorts/projects/1)
+[Project Board](https://github.com/TMarwah/P3Cowboys/projects/1)
 # Creators & Github Links
 NAME             | GITHUB Link |
 -------------    | --------------- |
@@ -21,7 +21,7 @@ Tanmay Marwah  | [Sign up page Ticket](https://github.com/TMarwah/P3Cowboys/proj
 Karam Alshaik | deployment/ profile page Ticket||
 
 # Project Plan:
-- A website where you can upload adertisements for your business. (Instagram styled)
+- A website where you can upload advertisements for your business. (Instagram styled)
   - Ability to create accounts
   - Once logged in, able to share advertisments with captions
   - Explore tab has advertisements from all authorized users
