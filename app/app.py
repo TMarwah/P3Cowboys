@@ -14,10 +14,10 @@ import requests
 import random
 
 app = Flask(__name__)
-app.register_blueprint(Cowboys_Allen_bp, url_prefix='/y2021/tri1')
-app.register_blueprint(Cowboys_Marc_bp, url_prefix='/y2021/tri2')
-app.register_blueprint(Cowboys_Tanmay_bp, url_prefix='/y2021/tri3')
-app.register_blueprint(Cowboys_William_bp, url_prefix='/y2021/tri4')
+app.register_blueprint(Cowboys_Allen_bp, url_prefix='/Cowboys/Allen')
+app.register_blueprint(Cowboys_Marc_bp, url_prefix='/Cowboys/Marc')
+app.register_blueprint(Cowboys_Tanmay_bp, url_prefix='/Cowboys/Tanmay')
+app.register_blueprint(Cowboys_William_bp, url_prefix='/Cowboys/William')
 
 backgrounds = ["https://wallpaperaccess.com/full/869.jpg"]
 
