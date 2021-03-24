@@ -6,10 +6,10 @@ Flask(__name__) establishes resources on the filesystem (aka package).
 """
 
 from flask import Flask, render_template
-from y2021.tri1.app import y2021_tri1_bp
-from y2021.tri2.app import y2021_tri2_bp
-from y2021.tri3.app import y2021_tri3_bp
-from y2021.tri4.app import y2021_tri4_bp
+from Cowboys.Allen.app import y2021_tri1_bp
+from Cowboys.Tanmay.app import y2021_tri2_bp
+from Cowboys.Marc.app import y2021_tri3_bp
+from Cowboys.William.app import y2021_tri4_bp
 import requests
 import random
 
