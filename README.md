@@ -15,7 +15,7 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
 NAME             | Assingment | What was Finshed|
 -------------    | --------------- | ------------- |
 William Cherres |  [Home Page Ticket](https://github.com/TMarwah/P3Cowboys/projects/1#card-57480117) |I was able to create a home page. The idea was to make a simple easy page where the user can easily navigate through in order to get to the their desired destination. Here is the code for the [Home page Code](https://github.com/TMarwah/P3Cowboys/blob/5ec57777451284357de9c705b95008fdec0bacc1/app/templates/homepage.html#L1-L35)|
-Allen Xu| [Upload Page Ticket(Back End)](https://github.com/TMarwah/P3Cowboys/projects/1#card-57452801) |Front end for upload page can be seen [here](https://github.com/TMarwah/P3Cowboys/blob/c8e9c343fb768c091edd3bf91ee3eb6367120cc9/y2021/tri1/upload.html#L157-L190). Currently using template from Trish as a baseline for our upload form, though back end isn't fully functioning yet|
+Allen Xu| [Upload Page Ticket(Back End)](https://github.com/TMarwah/P3Cowboys/blob/5a36755e97b8ec6538fe84390580bed753aa9c89/Cowboys/Allen/templates/upload.html#L157-L185) |Front end for upload page can be seen [here](https://github.com/TMarwah/P3Cowboys/blob/c8e9c343fb768c091edd3bf91ee3eb6367120cc9/y2021/tri1/upload.html#L157-L190). Currently using template from Trish as a baseline for our upload form, though back end isn't fully functioning yet|
 Marc Humeau| [Upload Page Ticket (Front End)](https://github.com/TMarwah/P3Cowboys/projects/1#card-57452895)||
 Tanmay Marwah  | [Sign up page Ticket](https://github.com/TMarwah/P3Cowboys/projects/1#card-57452127)||
 Karam Alshaik | deployment/ profile page Ticket||
