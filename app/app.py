@@ -9,6 +9,7 @@ from flask import Flask, render_template
 from y2021.tri1.app import y2021_tri1_bp
 from y2021.tri2.app import y2021_tri2_bp
 from y2021.tri3.app import y2021_tri3_bp
+from y2021.tri4.app import y2021_tri4_bp
 import requests
 import random
 
@@ -16,7 +17,7 @@ app = Flask(__name__)
 app.register_blueprint(y2021_tri1_bp, url_prefix='/y2021/tri1')
 app.register_blueprint(y2021_tri2_bp, url_prefix='/y2021/tri2')
 app.register_blueprint(y2021_tri3_bp, url_prefix='/y2021/tri3')
-app.register_blueprint(y2021_tri3_bp, url_prefix='/y2021/tri4')
+app.register_blueprint(y2021_tri4_bp, url_prefix='/y2021/tri4')
 
 backgrounds = ["https://wallpaperaccess.com/full/869.jpg"]
 
