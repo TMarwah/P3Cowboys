@@ -33,9 +33,7 @@ def index():
     return render_template("quotepage.html", background=background, quote=quote, author=author)
 
 
-@app.route('/')
-def homepage():
-    return render_template("homepage.html")
+
 
 
 if __name__ == "__main__":
