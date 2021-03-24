@@ -6,18 +6,18 @@ Flask(__name__) establishes resources on the filesystem (aka package).
 """
 
 from flask import Flask, render_template
-from Cowboys.Allen.app import y2021_tri1_bp
-from Cowboys.Tanmay.app import y2021_tri2_bp
-from Cowboys.Marc.app import y2021_tri3_bp
-from Cowboys.William.app import y2021_tri4_bp
+from Cowboys.Allen.app import Cowboys_Allen_bp
+from Cowboys.Marc.app import Cowboys_Marc_bp
+from Cowboys.Tanmay.app import Cowboys_Tanmay_bp
+from Cowboys.William.app import Cowboys_William_bp
 import requests
 import random
 
 app = Flask(__name__)
-app.register_blueprint(y2021_tri1_bp, url_prefix='/y2021/tri1')
-app.register_blueprint(y2021_tri2_bp, url_prefix='/y2021/tri2')
-app.register_blueprint(y2021_tri3_bp, url_prefix='/y2021/tri3')
-app.register_blueprint(y2021_tri4_bp, url_prefix='/y2021/tri4')
+app.register_blueprint(Cowboys_Allen_bp, url_prefix='/y2021/tri1')
+app.register_blueprint(Cowboys_Marc_bp, url_prefix='/y2021/tri2')
+app.register_blueprint(Cowboys_Tanmay_bp, url_prefix='/y2021/tri3')
+app.register_blueprint(Cowboys_William_bp, url_prefix='/y2021/tri4')
 
 backgrounds = ["https://wallpaperaccess.com/full/869.jpg"]
 

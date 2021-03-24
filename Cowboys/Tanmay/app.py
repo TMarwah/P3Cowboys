@@ -1,10 +1,10 @@
 from flask import Blueprint
 
-y2021_tri2_bp = Blueprint('y2021_tri2', __name__,
-                          template_folder='templates',
-                          static_folder='static', static_url_path='assets')
+Cowboys_Tanmay_bp = Blueprint('Cowboys_Tanmay', __name__,
+                              template_folder='templates',
+                              static_folder='static', static_url_path='assets')
 
 
-@y2021_tri2_bp.route('/')
+@Cowboys_Tanmay_bp.route('/')
 def index():
-    return "Y2021 tri2 Home Site"
+    return "Cowboys Marc"
