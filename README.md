@@ -22,7 +22,7 @@ Marc Humeau| [Upload Page Ticket (Front End)](https://github.com/TMarwah/P3Cowbo
 Tanmay Marwah  | [Sign up page Ticket](https://github.com/TMarwah/P3Cowboys/projects/1#card-57452127)|Created sign up page. This allows the user to create an account from which they can upload advertisements.|
 Karam Alshaik | [deployment/ profile page Ticket](https://github.com/TMarwah/P3Cowboys/projects/1#card-57713701)||
 
-Note: Minilab commits for each person can be viewed in each individual directory under Cowboys
+Note: Minilab commits for each person can be viewed in each individual directory [under Cowboys](https://github.com/TMarwah/P3Cowboys/tree/main/Cowboys)
 
 # Project Plan:
 **A website where you can upload advertisements for your business. (Instagram styled)**
