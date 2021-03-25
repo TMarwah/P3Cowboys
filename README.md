@@ -1,8 +1,8 @@
 # P3Cowboys
 GitHub Repo for the Period 3 Cowboys Team
 # Links
-[Project Board](https://github.com/TMarwah/P3Cowboys/projects/1)
-[Project Plan](https://github.com/TMarwah/P3Cowboys/blob/main/README.md#project-plan)
+- [Project Board](https://github.com/TMarwah/P3Cowboys/projects/1)
+- [Project Plan](https://github.com/TMarwah/P3Cowboys/blob/main/README.md#project-plan)
 # Creators & Github Links
 NAME             | GITHUB Link |
 -------------    | --------------- |
