@@ -33,9 +33,6 @@ def index():
     return render_template("quotepage.html", background=background, quote=quote, author=author)
 
 
-
-
-
 if __name__ == "__main__":
     # runs the application on the repl development server
     app.run(debug=True)
