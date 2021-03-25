@@ -20,7 +20,7 @@ William Cherres |  [Home Page Ticket](https://github.com/TMarwah/P3Cowboys/proje
 Allen Xu| [Upload Page Ticket(Back End)](https://github.com/TMarwah/P3Cowboys/blob/5a36755e97b8ec6538fe84390580bed753aa9c89/Cowboys/Allen/templates/upload.html#L157-L185) |Front end for upload page can be seen [here](https://github.com/TMarwah/P3Cowboys/blob/c8e9c343fb768c091edd3bf91ee3eb6367120cc9/y2021/tri1/upload.html#L157-L190). Currently using template from Trish as a baseline for our upload form, though back end isn't fully functioning yet|
 Marc Humeau| [Upload Page Ticket (Front End)](https://github.com/TMarwah/P3Cowboys/projects/1#card-57452895)|Created a base page that will be used to contain the [browse page](https://github.com/TMarwah/P3Cowboys/blob/1fe9f1baac450d288e187b750c9f2189ed094a49/Cowboys/Allen/templates/upload.html#L1-L185) in the future. Will work with the uploading database to pull data and display it in a Instagram like post.|
 Tanmay Marwah  | [Sign up page Ticket](https://github.com/TMarwah/P3Cowboys/projects/1#card-57452127)||
-Karam Alshaik | deployment/ profile page Ticket||
+Karam Alshaik | [deployment/ profile page Ticket](https://github.com/TMarwah/P3Cowboys/projects/1#card-57713701)||
 
 # Project Plan:
 **A website where you can upload advertisements for your business. (Instagram styled)**
