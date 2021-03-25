@@ -14,6 +14,14 @@ Marc Humeau| https://github.com/marchumeau|
 Tanmay Marwah  | https://github.com/TMarwah |
 Karam Alshaikh |https://github.com/KaramAlshaikh |
 
+# Mini Lab
+NAME             | Goal |   Accomplished |
+-------------    | --------------- | --------------- |
+William Cherres |  Create blue print ||
+Allen Xu|  Create blue print| |
+Marc Humeau|Create blue print ||
+Tanmay Marwah  | Create blue print ||
+Karam Alshaikh |Create blue print ||
 # Crossover review
 Individual Completed Tickets:
 NAME             | Assingment | What was Finshed|
