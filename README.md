@@ -4,6 +4,7 @@ GitHub Repo for the Period 3 Cowboys Team
 - [Website link]
 - [Project Ticket Board](https://github.com/TMarwah/P3Cowboys/projects/1)
 - [Project Plan](https://github.com/TMarwah/P3Cowboys/blob/main/README.md#project-plan)
+- [Blueprints for project with different url for each person](https://github.com/TMarwah/P3Cowboys/blob/2171223a6bce49fae78ed343d555b93a0db4597a/app/app.py#L16-L20)
 # Creators & Github Links
 NAME             | GITHUB Link |
 -------------    | --------------- |
@@ -14,6 +15,7 @@ Tanmay Marwah  | https://github.com/TMarwah |
 Karam Alshaikh |https://github.com/KaramAlshaikh |
 
 # Crossover review
+Individual Completed Tickets:
 NAME             | Assingment | What was Finshed|
 -------------    | --------------- | ------------- |
 William Cherres |  [Home Page Ticket](https://github.com/TMarwah/P3Cowboys/projects/1#card-57480117) |I was able to create a home page. The idea was to make a simple easy page where the user can easily navigate through in order to get to the their desired destination. Here is the code for the [Home page Code](https://github.com/TMarwah/P3Cowboys/blob/5ec57777451284357de9c705b95008fdec0bacc1/app/templates/homepage.html#L1-L35)/[Blueprint](https://github.com/TMarwah/P3Cowboys/blob/6d19643be35fa7d889aedd4e8a080f27314306f8/Cowboys/William/app.py#L1-L10)|
