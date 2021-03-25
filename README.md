@@ -6,7 +6,7 @@ GitHub Repo for the Period 3 Cowboys Team
 NAME             | GITHUB Link |
 -------------    | --------------- |
 William Cherres | https://github.com/BillyCherres  |
-Allen Xu| https://github.com/allenyxu |
+Allen Xu| https://github.com/allenyxu | 
 Marc Humeau| https://github.com/marchumeau|
 Tanmay Marwah  | https://github.com/TMarwah |
 Karam Alshaikh |https://github.com/KaramAlshaikh |
