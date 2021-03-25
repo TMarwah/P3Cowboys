@@ -15,11 +15,15 @@ Tanmay Marwah  | https://github.com/TMarwah |
 Karam Alshaikh |https://github.com/KaramAlshaikh |
 
 # Mini Lab
+
+**Note:**
+- Minilab commits for each person can be viewed in each individual directory [under Cowboys](https://github.com/TMarwah/P3Cowboys/tree/main/Cowboys)
+
 NAME             | Goal |   Accomplished |
 -------------    | --------------- | --------------- |
-William Cherres |  Create blue print ||
-Allen Xu|  Create blue print| |
-Marc Humeau|Create blue print ||
+William Cherres |  Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/William/williamminilab.py)|
+Allen Xu|  Create blue print| [Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/allenminilab.py)|
+Marc Humeau|Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Marc/marcminilab.py)|
 Tanmay Marwah  | Create blue print ||
 Karam Alshaikh |Create blue print ||
 # Crossover review
@@ -31,8 +35,6 @@ Allen Xu| [Upload Page Ticket(Back End)](https://github.com/TMarwah/P3Cowboys/bl
 Marc Humeau| [Upload Page Ticket (Front End)](https://github.com/TMarwah/P3Cowboys/projects/1#card-57452895)|Created a base page that will be used to contain the [browse page](https://github.com/TMarwah/P3Cowboys/blob/1fe9f1baac450d288e187b750c9f2189ed094a49/Cowboys/Allen/templates/upload.html#L1-L185) in the future. Will work with the uploading database to pull data and display it in a Instagram like post.|
 Tanmay Marwah  | [Sign up page Ticket](https://github.com/TMarwah/P3Cowboys/projects/1#card-57452127)|Created sign up page. This allows the user to create an account from which they can upload advertisements.|
 Karam Alshaik | [deployment/ profile page Ticket](https://github.com/TMarwah/P3Cowboys/projects/1#card-57713701)||
-
-Note: Minilab commits for each person can be viewed in each individual directory [under Cowboys](https://github.com/TMarwah/P3Cowboys/tree/main/Cowboys)
 
 # Project Plan:
 **A website where you can upload advertisements for your business. (Instagram styled)**
