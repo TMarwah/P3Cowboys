@@ -38,7 +38,7 @@ Karam Alshaik | [deployment/ profile page Ticket](https://github.com/TMarwah/P3C
 
 # Project Plan:
 [Link to full project plan](https://docs.google.com/document/d/1NUglOHAQ0yPWXlH5ESuNnhjRK4Zx0Qv2SCLvOVtnDrY/edit?usp=sharing)
-**A website where you can upload advertisements for your business. (Instagram styled)**
+- **A website where you can upload advertisements for your business. (Instagram styled)**
 - [ ] Ability to create accounts
 - [ ] Once logged in, able to share advertisments with captions
 - [ ] Explore tab has advertisements from all authorized users
