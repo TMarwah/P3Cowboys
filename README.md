@@ -24,8 +24,8 @@ NAME             | Goal |   Accomplished |
 William Cherres |  Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/William/williamminilab.py)|
 Allen Xu|  Create blue print| [Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/allenminilab.py)|
 Marc Humeau|Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Marc/marcminilab.py)|
-Tanmay Marwah  | Create blue print ||
-Karam Alshaikh |Create blue print ||
+Tanmay Marwah  | Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Tanmay/tanmayminilab.py)|
+Karam Alshaikh |Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/karamminilab.py)|
 # Crossover review
 Individual Completed Tickets:
 NAME             | Assingment | What was Finshed|
