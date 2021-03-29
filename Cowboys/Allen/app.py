@@ -20,7 +20,9 @@ def browse():
 @Cowboys_Allen_bp.route("/upload")
 def upload():
     return render_template("upload.html")
-
+@Cowboys_Allen_bp.route("/minilab")
+def minilab():
+    return render_template("allenminilab.html")
 
 
 
