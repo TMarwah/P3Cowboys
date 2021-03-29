@@ -1,9 +1,9 @@
 # P3 Cowboys Advertisement site
 GitHub Repo for the Period 3 Cowboys Team
 # Links
-- [Website link]
+- [Website link](http://p3cowboys.pentahex.xyz:8080/)
 - [Project Ticket Board](https://github.com/TMarwah/P3Cowboys/projects/1)
-- [Project Plan](https://github.com/TMarwah/P3Cowboys/blob/main/README.md#project-plan)
+- [Project Plan](https://docs.google.com/document/d/1NUglOHAQ0yPWXlH5ESuNnhjRK4Zx0Qv2SCLvOVtnDrY/edit?usp=sharing)
 - [Blueprints for project with different url for each person](https://github.com/TMarwah/P3Cowboys/blob/2171223a6bce49fae78ed343d555b93a0db4597a/app/app.py#L16-L20)
 # Creators & Github Links
 NAME             | GITHUB Link |
@@ -14,6 +14,18 @@ Marc Humeau| https://github.com/marchumeau|
 Tanmay Marwah  | https://github.com/TMarwah |
 Karam Alshaikh |https://github.com/KaramAlshaikh |
 
+# Mini Lab
+
+**Note:**
+- Minilab commits for each person can be viewed in each individual directory [under Cowboys](https://github.com/TMarwah/P3Cowboys/tree/main/Cowboys)
+
+NAME             | Goal |   Accomplished |
+-------------    | --------------- | --------------- |
+William Cherres |  Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/William/williamminilab.py)|
+Allen Xu|  Create blue print| [Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/allenminilab.py)|
+Marc Humeau|Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Marc/marcminilab.py)|
+Tanmay Marwah  | Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Tanmay/tanmayminilab.py)|
+Karam Alshaikh |Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/karamminilab.py)|
 # Crossover review
 Individual Completed Tickets:
 NAME             | Assingment | What was Finshed|
@@ -22,12 +34,11 @@ William Cherres |  [Home Page Ticket](https://github.com/TMarwah/P3Cowboys/proje
 Allen Xu| [Upload Page Ticket(Back End)](https://github.com/TMarwah/P3Cowboys/blob/5a36755e97b8ec6538fe84390580bed753aa9c89/Cowboys/Allen/templates/upload.html#L157-L185) |Front end for upload page can be seen [here](https://github.com/TMarwah/P3Cowboys/blob/c8e9c343fb768c091edd3bf91ee3eb6367120cc9/y2021/tri1/upload.html#L157-L190). Currently using template from Trish as a baseline for our upload form, though back end isn't fully functioning yet|
 Marc Humeau| [Upload Page Ticket (Front End)](https://github.com/TMarwah/P3Cowboys/projects/1#card-57452895)|Created a base page that will be used to contain the [browse page](https://github.com/TMarwah/P3Cowboys/blob/1fe9f1baac450d288e187b750c9f2189ed094a49/Cowboys/Allen/templates/upload.html#L1-L185) in the future. Will work with the uploading database to pull data and display it in a Instagram like post.|
 Tanmay Marwah  | [Sign up page Ticket](https://github.com/TMarwah/P3Cowboys/projects/1#card-57452127)|Created sign up page. This allows the user to create an account from which they can upload advertisements.|
-Karam Alshaik | [deployment/ profile page Ticket](https://github.com/TMarwah/P3Cowboys/projects/1#card-57713701)||
-
-Note: Minilab commits for each person can be viewed in each individual directory [under Cowboys](https://github.com/TMarwah/P3Cowboys/tree/main/Cowboys)
+Karam Alshaik | [deployment/ profile page Ticket](https://github.com/TMarwah/P3Cowboys/projects/1#card-57713701)|[Website link](http://p3cowboys.pentahex.xyz:8080/)|
 
 # Project Plan:
-**A website where you can upload advertisements for your business. (Instagram styled)**
+[Link to full project plan](https://docs.google.com/document/d/1NUglOHAQ0yPWXlH5ESuNnhjRK4Zx0Qv2SCLvOVtnDrY/edit?usp=sharing)
+- **A website where you can upload advertisements for your business. (Instagram styled)**
 - [ ] Ability to create accounts
 - [ ] Once logged in, able to share advertisments with captions
 - [ ] Explore tab has advertisements from all authorized users
