@@ -4,10 +4,7 @@ Flask(__name__) establishes resources on the filesystem (aka package).
 2. the Flask initializer uses __name__ param to locate root of webserver
 3. static and templates are of folders that are located relative to directory of Flask execution
 """
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
 from flask import Flask, render_template
 from Cowboys.Allen.app import Cowboys_Allen_bp
 from Cowboys.Marc.app import Cowboys_Marc_bp
@@ -15,18 +12,11 @@ from Cowboys.Tanmay.app import Cowboys_Tanmay_bp
 from Cowboys.William.app import Cowboys_William_bp
 import requests
 import random
-<<<<<<< HEAD
 
 app = Flask(__name__)
 app.register_blueprint(Cowboys_Allen_bp, url_prefix='/cowboys/allen')
 app.register_blueprint(Cowboys_Marc_bp, url_prefix='/y2021/tri2')
 app.register_blueprint(Cowboys_Tanmay_bp, url_prefix='/cowboys/tanmay')
-=======
-app = Flask(__name__)
-app.register_blueprint(Cowboys_Allen_bp, url_prefix='/cowboys/allen')
-app.register_blueprint(Cowboys_Marc_bp, url_prefix='/y2021/tri2')
-app.register_blueprint(Cowboys_Tanmay_bp, url_prefix='/y2021/tri3')
->>>>>>> origin/main
 app.register_blueprint(Cowboys_William_bp, url_prefix='/')
 
 backgrounds = ["https://wallpaperaccess.com/full/869.jpg"]
@@ -44,8 +34,4 @@ def index():
 
 if __name__ == "__main__":
     # runs the application on the repl development server
-<<<<<<< HEAD
-    app.run(debug=True, port="5000")
-=======
     app.run(debug=True)
->>>>>>> origin/main
