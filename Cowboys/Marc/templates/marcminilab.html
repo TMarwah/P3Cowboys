@@ -1,10 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<style>
+    h3 {
+        text-color: white;
+        text-size: 10%;
+    }
 
-</body>
-</html>
+  pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  a:link, a:visited {
+    background-color: gray;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a:hover, a:active {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+</style>
+</head>
+
+<a href="/"> Home </a>
+
+<h1> Robot Class </h1>
+<p> The class is created and called Robot, with functions to set and get attributes</p>
+<pre>
+<code>class Robot:
+    def setName(self,n):
+        self._name=n
+    def getName(self):
+        return self._name
+
+    def setColor(self,c):
+        self._color=c
+    def getColor(self):
+        return self._color
+
+    def setWeight(self,w):
+        self._weight=w
+    def getWeight(self):
+        return self._weight
+
+    def display(self):
+        print('Name:', self._name)
+        print('Color:',self._color)
+        print('Weight:',self._weight) </code>
+</pre>
+<p> I have set attributes for one robot</p>
+<pre>
+    <code>
+        R=Robot()
+        R.setName("Tom")
+        R.setColor("Red")
+        R.setWeight(55)
+    </code>
+</pre>
+<p> We can call attributes using the display function in the class </p>
+<pre>
+    <code>
+        def display(self):
+        print('Name:', self._name)
+        print('Color:',self._color)
+        print('Weight:',self._weight)
+
+        R.display()
+    </code>
+</pre>
+<p> This is the output when we run the functions</p>
+<pre>
+    <code>
+        Name: Tom
+        Color: Red
+        Weight: 55
+    </code>
+</pre>
+<p>We can use getters and jinja functions to display it on the HTML page</p>
+<P>(I didn't add the curly braces for display appearances)</P>
+<pre>
+    <code>
+        set R = Robot
+        R.setName(Tom")
+        R.setColor(Red)
+        R.setWeight(55)
+        R.getName()
+        R.getColor()
+        R.getWeight
+    </code>
+</pre>
+<p>This is what is displayed</p>
+{% set R = Robot %}
+
+{{R.setName("Tom")}}
+{{R.setColor("Red")}}
+{{R.setWeight(55)}}
+<pre>
+    <code>
+        {{R.getName()}}
+        {{R.getColor()}}
+        {{R.getWeight()}}
+    </code>
+</pre>
+

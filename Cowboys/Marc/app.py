@@ -1,5 +1,6 @@
-from flask import Blueprint
-from flask import render_template
+from flask import Blueprint, render_template, request
+from .marcminilab import Robot
+
 
 Cowboys_Marc_bp = Blueprint('Cowboys_Marc', __name__,
                             template_folder='templates',
@@ -7,5 +8,6 @@ Cowboys_Marc_bp = Blueprint('Cowboys_Marc', __name__,
 
 
 @Cowboys_Marc_bp.route("/marcminilab")
-def upload():
-    return render_template("marcminilab.html")
+def minilab():
+    return render_template("marcminilab.html", Robot=Robot())
+
