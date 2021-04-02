@@ -9,7 +9,8 @@
             <li><a href="/">Home</a></li>
             <li><a href="/cowboys/allen/upload">Upload</a></li>
             <li><a href="">Browse</a></li>
-            <li><a href="}">API</a></li>
+            <li><a href="/cowboys/allen/minilab">Allen's Minilab</a></li>
+        </div>
             {% if not session['user'] %}
             <li><a href="">Sign in</a></li>
             <li><a href="">Sign Up</a></li>
@@ -19,21 +20,12 @@
             <li><a href="{{ url_for('logout') }}">Logout</a></li>
             {% endif %}
 
-
-
         </ul>
     </nav>
     {% block title %} {% endblock %}
     {% block body %} {% endblock %}
     {% block content %} {% endblock %}
 </header>
-
-{#
-<!--
-
-
--->
-#}
 
 <style>
 	@import url('https://fonts.googleapis.com/css?family=Roboto');
