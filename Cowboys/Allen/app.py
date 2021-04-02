@@ -1,5 +1,6 @@
 from flask import Blueprint
-from flask import render_template
+from flask import render_template, request
+from Cowboys.Allen.allenminilab import Prime
 
 
 backgrounds = ["https://www.teahub.io/photos/full/193-1933361_laptop-aesthetic-wallpapers-anime.jpg"]
@@ -20,9 +21,18 @@ def browse():
 @Cowboys_Allen_bp.route("/upload")
 def upload():
     return render_template("upload.html")
-@Cowboys_Allen_bp.route("/minilab")
+
+
+@Cowboys_Allen_bp.route("/minilab", methods=["POST", "GET"])
 def minilab():
-    return render_template("allenminilab.html")
+
+    if(request.method == 'POST'):
+
+        number = request.form.get('number')
+        n = int(number)
+        return render_template("allenminilab.html", prime = Prime(n).solution())
+
+    return render_template("allenminilab.html", prime = Prime(2).solution())
 
 
 
