@@ -8,3 +8,8 @@ Cowboys_William_bp = Blueprint('Cowboys_William', __name__,
 @Cowboys_William_bp.route("/")
 def upload():
     return render_template("homepage2.html")
+
+
+@Cowboys_William_bp.route("/williamminilab")
+def minilab():
+    return render_template("williamminilab.html")
