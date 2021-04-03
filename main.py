@@ -9,6 +9,7 @@ from flask import Flask, render_template
 from Cowboys.Allen.app import Cowboys_Allen_bp
 from Cowboys.Marc.app import Cowboys_Marc_bp
 from Cowboys.Tanmay.app import Cowboys_Tanmay_bp
+from Cowboys.Karam. app import Cowboys_Karam_bp
 from Cowboys.William.app import Cowboys_William_bp
 import requests
 import random
@@ -17,6 +18,7 @@ app = Flask(__name__)
 app.register_blueprint(Cowboys_Allen_bp, url_prefix='/cowboys/allen')
 app.register_blueprint(Cowboys_Marc_bp, url_prefix='/cowboys/marc')
 app.register_blueprint(Cowboys_Tanmay_bp, url_prefix='/cowboys/tanmay')
+app.register_blueprint(Cowboys_Karam_bp, url_prefix='/cowboys/karam')
 app.register_blueprint(Cowboys_William_bp, url_prefix='/')
 
 backgrounds = ["https://wallpaperaccess.com/full/869.jpg"]

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        h3 {
+            text-color: white;
+            text-size: 10%;
+        }
+
+        pre code {
+            background-color: #eee;
+            border: 1px solid #999;
+            display: block;
+            padding: 10px;
+            width: 30%;
+            margin: auto;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        a:link, a:visited {
+            background-color: gray;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        a:hover, a:active {
+            background-color: black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+</head>
+
+<a href="/"> Home </a>
+
+<h1> Caracal Class </h1>
+<p> The class is created and called Caracal, where this is the code I used </p>
+<pre>
+<code> class Caracal:
+
+    # Class Variable
+    animal = 'caracal'
+
+    # The init method or constructor
+    def __init__(self, weight, color):
+
+        # Instance Variable
+        self.weight = weight
+        self.color = color
+
+    # Objects of Caracal class
+Zabloing = Caracal("skinny", "beige")
+Floppa = Caracal("fat", "brown")
+
+print('Zabloing details:')
+print('Zabloing is a', Zabloing.animal)
+print('weight: ', Zabloing.weight)
+print('color: ', Zabloing.color)
+
+print('\nFloppa details:')
+print('Floppa is a', Floppa.animal)
+print('weight: ', Floppa.weight)
+print('color: ', Floppa.color)
+
+# Class variables can be accessed using class
+# name also
+print("\nAccessing class variable using class name")
+print(Caracal.animal) </code>
+
+</pre>
+
+<p>We can use getters and jinja functions to display it on the HTML page</p>
+{% set C = Caracal %}
+<code>
+    set C = Caracal
+    C.setname(Zabloing)
+    C.setname(Floppa)
+</code>
+<pre>
+    <p>This is what it showed </p>
+{% set C = Caracal %}
+
+{{C.setname("Zabloing")}}
+{{C.setcolor("beige")}}
+{{C.setweight("skinny")}}
+
+    {{C.setname("Floppa")}}
+{{C.setcolor("brown")}}
+{{C.setweight("fat")}}
+
+<pre>
+    <code>
+        {{R.getname()}}
+        {{R.getcolor()}}
+        {{R.getweight()}}
+    </code>
+</pre>
+
