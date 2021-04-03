@@ -1,5 +1,116 @@
-{% extends "base.html" %}
 
-<
-{% block body %}
+<!DOCTYPE html>
+<head>
+    <style>
+    h3 {
+        text-color: white;
+        text-size: 10%;
+    }
+
+  pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  a:link, a:visited {
+    background-color: gray;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a:hover, a:active {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+</style>
+</head>
+
+<a href="/"> Home </a>
+
+<h1> Person Class </h1>
+<p> The is the output of my code </p>
+<pre>
+<code>
+Hello my name is Billy. I am 17 and I like to play Soccer
+Hello my name is Marc. I am 17 and I like to play Basketball
+Hello my name is Karam. I am 17 and I like to Code
+Hello my name is Allen. I am 17 and I like to play Fortnite
+Hello my name is Tanmmay. I am 17 and I like to eat Food</code>
+</pre>
+
+<h1> Person Class Code!!! </h1>
+<p> The class is created and called Person</p>
+<pre>
+<code>class Person:
+    def __init__(self, name, age, sport):
+        self.name = name
+        self.age = age
+        self.sport = sport
+
+    def Person1(self):
+        print("Hello my name is " + self.name, "I like to play" + self.sport)
+
+    def Person3(self):
+        print("Hello my name is " + self.name, "I like to" + self.sport)
+
+    def Person5(self):
+        print("Hello my name is " + self.name, "and I like to eat" + self.sport)</code>
+</pre>
+<p> I have set attributes for each indivisual Person</p>
+<pre>
+    <code>
+p1 = Person("Billy", 17, " Soccer")
+p1.Person1()
+p1 = Person("Marc", 17, " Basketball")
+p1.Person1()
+p3 = Person("Karam", 17, " Code")
+p3.Person3()
+p1 = Person("Allen", 17, " Fortnite")
+p1.Person1()
+p5 = Person("Tanmmay", 17, " Food")
+p5.Person5()
+    </code>
+</pre>
+
+<p>We can use getters and jinja functions to display it on the HTML page</p>
+<pre>
+    <code>
+{% set P = Person %}
+{% set p1=Person(Billy,17,Soccer) %}
+{{p1.Person1}}
+{% set p1=Person(Marc,17,Basketball) %}
+{{p1.Person1}}
+{% set p1=Person(Karam,17,code) %}
+{{p1.Person1}}
+{% set p1=Person(Allen,17,Fortnite) %}
+{{p1.Person1}}
+{% set p1=Person(Tanmay,17,food) %}
+{{p1.Person1}}
+    </code>
+</pre>
+
+
+
+
+
+
 

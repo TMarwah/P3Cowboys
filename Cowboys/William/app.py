@@ -1,4 +1,5 @@
 from flask import Blueprint, render_template
+from Cowboys.William.williamminilab import Person
 
 Cowboys_William_bp = Blueprint('Cowboys_William', __name__,
                                template_folder='templates',
@@ -12,4 +13,4 @@ def upload():
 
 @Cowboys_William_bp.route("/williamminilab")
 def minilab():
-    return render_template("williamminilab.html")
+    return render_template("williamminilab.html", Person=Person())
