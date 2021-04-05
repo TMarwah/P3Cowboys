@@ -21,3 +21,20 @@ class Prime:
         else:
             return prime_nums
 
+
+    """Getters with decorator to allow . notation access"""
+    @property
+    def series(self):
+        return self._series
+
+    @property
+    def list(self):
+        return self._list
+
+    @property
+    def number(self):
+        return self._list[self._dictID - 1]
+
+    """Traditional Getter requires method access"""
+    def get_sequence(self, nth):
+        return self._dict[nth]
