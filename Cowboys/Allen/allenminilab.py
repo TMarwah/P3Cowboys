@@ -4,7 +4,7 @@ class Prime:
 
     def __init__(self, number):
         self._number = number
-
+    @property
     def solution(self):
         n = self._number
         prime_nums = []
@@ -23,18 +23,4 @@ class Prime:
 
 
     """Getters with decorator to allow . notation access"""
-    @property
-    def series(self):
-        return self._series
 
-    @property
-    def list(self):
-        return self._list
-
-    @property
-    def number(self):
-        return self._list[self._dictID - 1]
-
-    """Traditional Getter requires method access"""
-    def get_sequence(self, nth):
-        return self._dict[nth]
