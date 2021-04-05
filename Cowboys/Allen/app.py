@@ -30,9 +30,9 @@ def minilab():
 
         number = request.form.get('number')
         n = int(number)
-        return render_template("allenminilab.html", prime = Prime(n).solution())
+        return render_template("allenminilab.html", prime = Prime(n))
 
-    return render_template("allenminilab.html", prime = Prime(2).solution())
+    return render_template("allenminilab.html", prime = Prime(2))
 
 
 
