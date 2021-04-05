@@ -1,44 +1,33 @@
 <!DOCTYPE html>
 <head>
     <style>
-    h3 {
-        text-color: white;
-        text-size: 10%;
-    }
+    body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
 
-  pre code {
-    background-color: #eee;
-    border: 1px solid #999;
-    display: block;
-    padding: 10px;
-    width: 30%;
-    margin: auto;
-  }
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
 
-  p {
-    text-align: center;
-  }
+<p>Click the button to toggle between dark and light mode for this page.</p>
 
-  h1 {
-    text-align: center;
-  }
+<button onclick="myFunction()">Toggle dark mode</button>
 
-  a:link, a:visited {
-    background-color: gray;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 
-  a:hover, a:active {
-    background-color: black;
-    margin-left: auto;
-    margin-right: auto;
-  }
+</body>
 
 </style>
 </head>
