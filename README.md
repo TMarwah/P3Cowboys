@@ -21,7 +21,7 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
 
 NAME             | Goal |   Accomplished |
 -------------    | --------------- | --------------- |
-William Cherres |  Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/6d19643be35fa7d889aedd4e8a080f27314306f8/Cowboys/William/app.py#L1-L10)|
+William Cherres |  Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/tree/main/Cowboys/William)|
 Allen Xu|  Create blue print| [Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/allenminilab.py)|
 Marc Humeau|Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Marc/marcminilab.py)|
 Tanmay Marwah  | Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Tanmay/tanmayminilab.py)|
