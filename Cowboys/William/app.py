@@ -13,4 +13,8 @@ def upload():
 
 @Cowboys_William_bp.route("/williamminilab")
 def minilab():
-    return render_template("williamminilab.html", Person=Person())
+    people = []
+    people.append(Person("Billy", 17, "Soccer"))
+    people.append(Person("Marc", 17, " Basketball"))
+    people.append(Person("Allen", 17, " Coding"))
+    return render_template("williamminilab.html", people=people)

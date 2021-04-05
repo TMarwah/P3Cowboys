@@ -93,17 +93,11 @@ p5.Person5()
 <p>We can use getters and jinja functions to display it on the HTML page</p>
 <pre>
     <code>
-{% set P = Person %}
-{% set p1=Person(Billy,17,Soccer) %}
-{{p1.Person1}}
-{% set p1=Person(Marc,17,Basketball) %}
-{{p1.Person1}}
-{% set p1=Person(Karam,17,code) %}
-{{p1.Person1}}
-{% set p1=Person(Allen,17,Fortnite) %}
-{{p1.Person1}}
-{% set p1=Person(Tanmay,17,food) %}
-{{p1.Person1}}
+    {% for person in people %}
+        {{ person.name}}
+        {{ person.age }}
+        {{ person.sport }}
+        {% endfor %}
     </code>
 </pre>
 
