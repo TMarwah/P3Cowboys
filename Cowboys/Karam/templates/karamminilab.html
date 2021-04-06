@@ -80,31 +80,37 @@ print("\nAccessing class variable using class name")
 print(Caracal.animal) </code>
 
 </pre>
+<p>  There are set attributes for each indivisual type of Caracal </p>
+<pre>
+    <code>
+Zabloing = Caracal("skinny", "beige")
+Floppa = Caracal("fat", "brown")
+    </code>
+</pre>
 
 <p>We can use getters and jinja functions to display it on the HTML page</p>
 {% set C = Caracal %}
 <code>
-    set C = Caracal
-    C.setname(Zabloing)
-    C.setname(Floppa)
-</code>
 <pre>
-    <p>This is what it showed </p>
-{% set C = Caracal %}
-
-{{C.setname("Zabloing")}}
-{{C.setcolor("beige")}}
-{{C.setweight("skinny")}}
-
-    {{C.setname("Floppa")}}
-{{C.setcolor("brown")}}
-{{C.setweight("fat")}}
-
-<pre>
-    <code>
-        {{R.getname()}}
-        {{R.getcolor()}}
-        {{R.getweight()}}
+    {% for Caracal in caracals %}
+        {{ Caracal.weight}}
+        {{ Caracal.color }}
+        {% endfor %}
     </code>
 </pre>
 
+<p>  This is the code displayed: </p>
+<pre>
+    <code>
+Zabloing details:
+Zabloing is a caracal
+weight:  skinny
+color:  beige
+
+Floppa details:
+Floppa is a caracal
+weight:  fat
+color:  brown
+
+    </code>
+</pre>
