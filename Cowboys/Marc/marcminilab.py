@@ -14,13 +14,36 @@ class Robot:
     def getWeight(self):
         return self.weight
 
+    @property
     def display(self):
-        print('Name:', self.name)
-        print('Color:',self.color)
-        print('Weight:',self.weight)
+        return('Name:', self.name, 'Color:', self.color, 'Weight:', self.weight)
+
+
 
 R=Robot()
 R.setName("Tom")
 R.setColor("Red")
 R.setWeight(55)
-R.display()
+
+class Calculator:
+    def __init__(self, num1, num2):
+        self.number_1=num1
+        self.number_2=num2
+
+    def add(self):
+        return self.number_1+self.number_2
+
+    def sub(self):
+        return self.number_1-self.number_2
+
+    def mul(self):
+        return self.number_1*self.number_2
+
+    def div(self):
+        return self.number_1/self.number_2
+
+class Robot1:
+    def __init__(self, name, color, weight):
+        self.name = name
+        self.color = color
+        self.weight = weight
