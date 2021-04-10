@@ -12,7 +12,7 @@ class Person:
         print("Hello my name is " + self.name, ". I am", self.age, "and I like to" + self.sport)
 
     def Person5(self):
-        print("Hello my name is " + self.name, ". I am",  self.age, "and I like to eat" + self.sport)
+        print("Hello my name is " + self.name, ". I am", self.age, "and I like to eat" + self.sport)
 
 
 p1 = Person("Billy", 17, " Soccer")
@@ -25,3 +25,14 @@ p4 = Person("Allen", 17, " Fortnite")
 p4.Person1()
 p1 = Person("Tanmmay", 17, " Food")
 p1.Person5()
+
+
+class Exponent:
+    def __init__(self, num1, num2):
+        self.number_1 = num1
+        self.number_2 = num2
+
+    def power(self):
+        return self.number_1 ** self.number_2
+
+

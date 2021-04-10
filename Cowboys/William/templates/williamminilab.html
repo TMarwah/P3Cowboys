@@ -128,3 +128,35 @@ p5.Person5()
         {% endfor %}
     </code>
 </pre>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<h1>  Exponential Equation Class </h1>
+<P> First number you Enter will be the Base</P>
+<P> Second number you Enter will be the The exponent</P>
+
+<P> Click Go! to see the answer of your exponential equation</P>
+<form method="post">
+    <div class="container">
+        <div class="input-group mb-3" >
+            <input type="number" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="number1" min="1" max="100">
+        </div>
+    </div>
+    <div class="container">
+        <div class="input-group mb-3" >
+            <input type="number" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="number2" min="1" max="100">
+        </div>
+    </div>
+    <button class="btn btn-outline-secondary" type="submit" id="button-addon1">Go!</button>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <p>Answer: {{answer}}</p>
+            </div>
+        </div>
+    </div>
+</form>
