@@ -13,7 +13,6 @@ def upload():
 
 @Cowboys_William_bp.route("/williamminilab", methods=["POST", "GET"])
 def minilab():
-    global answer
     if request.method == 'POST':
         num1 = request.form.get('number1')
         num2 = request.form.get('number2')
