@@ -31,8 +31,41 @@ class Exponent:
     def __init__(self, num1, num2):
         self.number_1 = num1
         self.number_2 = num2
+        self.number_3 = self.number_1 ** self.number_2
+
+    def dispanswers(self):
+        return self.number_1, "^", self.number_2, "=", self.number_3
 
     def power(self):
         return self.number_1 ** self.number_2
 
+
+class Dog:
+    def setType1(self, t):
+        self.type1 = t
+
+    def getType1(self):
+        return self.type1
+
+    def setType2(self, t):
+        self.type2 = t
+
+    def getType2(self):
+        return self.type2
+
+    def setType3(self, t):
+            self.type3 = t
+
+    def getType3(self):
+        return self.type3
+
+    @property
+    def display(self):
+        return 'Type1:', self.type1, 'Type2:', self.type2, 'Type3:', self.type3
+
+
+D = Dog()
+D.setType1('Yorky')
+D.setType2('Weiner dog')
+D.setType3('Pug')
 

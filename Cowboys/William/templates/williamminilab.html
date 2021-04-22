@@ -73,59 +73,33 @@ function myFunction() {
 
 <a href="/"> Home </a>
 
-<h1> Person Class </h1>
-<p> The is the output of my code </p>
-<pre>
-<code>
-Hello my name is Billy. I am 17 and I like to play Soccer
-Hello my name is Marc. I am 17 and I like to play Basketball
-Hello my name is Karam. I am 17 and I like to Code
-Hello my name is Allen. I am 17 and I like to play Fortnite
-Hello my name is Tanmmay. I am 17 and I like to eat Food</code>
-</pre>
-
-<h1> Person Class Code!!! </h1>
-<p> The class is created and called Person</p>
-<pre>
-<code>class Person:
-    def __init__(self, name, age, sport):
-        self.name = name
-        self.age = age
-        self.sport = sport
-
-    def Person1(self):
-        print("Hello my name is " + self.name, "I like to play" + self.sport)
-
-    def Person3(self):
-        print("Hello my name is " + self.name, "I like to" + self.sport)
-
-    def Person5(self):
-        print("Hello my name is " + self.name, "and I like to eat" + self.sport)</code>
-</pre>
-<p> I have set attributes for each indivisual Person</p>
+<h1> Dog class </h1>
+<p> This class displays different types of dogs</p>
+<p> Using getters and setters to display it on the HTML page </p>
+<p> Dog class that sets the "value" and assigns the type of dog</p>
 <pre>
     <code>
-p1 = Person("Billy", 17, " Soccer")
-p1.Person1()
-p1 = Person("Marc", 17, " Basketball")
-p1.Person1()
-p3 = Person("Karam", 17, " Code")
-p3.Person3()
-p1 = Person("Allen", 17, " Fortnite")
-p1.Person1()
-p5 = Person("Tanmmay", 17, " Food")
-p5.Person5()
+d = dog()
+d.setType1('Yorky')
+d.setType2('Weiner dog')
+d.setType3('Pug')
     </code>
 </pre>
 
-<p>We can use getters and jinja functions to display it on the HTML page</p>
+<p> Getters </p>
 <pre>
     <code>
-    {% for person in people %}
-        {{ person.name}}
-        {{ person.age }}
-        {{ person.sport }}
-        {% endfor %}
+d.getType1()
+d.getType2()
+d.getType3()
+    </code>
+</pre>
+<p> Output of the Code </p>
+<pre>
+    <code>
+        {{D.getType1()}}
+        {{D.getType2()}}
+        {{D.getType3()}}
     </code>
 </pre>
 
@@ -151,12 +125,16 @@ p5.Person5()
         </div>
     </div>
     <button class="btn btn-outline-secondary" type="submit" id="button-addon1">Go!</button>
-
+    <pre>
+        <code>
     <div class="container">
         <div class="card">
             <div class="card-body">
-                <p>Answer: {{answer}}</p>
+                <p>Answer: {{variable}} ^ {{variable2}} = {{dispanswers}}</p>
             </div>
         </div>
     </div>
+        </code>
+    </pre>
+
 </form>

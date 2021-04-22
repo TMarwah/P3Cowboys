@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request
-from Cowboys.William.williamminilab import Person, Exponent
+from Cowboys.William.williamminilab import Person, Exponent, Dog, D
 
 Cowboys_William_bp = Blueprint('Cowboys_William', __name__,
                                template_folder='templates',
@@ -20,8 +20,11 @@ def minilab():
         x = int(num1)
         y = int(num2)
         calc = Exponent(x, y)
-        answer = calc.power()
-        return render_template("williamminilab.html",  answer=answer)
+        answer1 = calc.power()
+        variable = int(num1)
+        variable2 = int(num2)
+        dispanswers = [answer1]
+        return render_template("williamminilab.html", D=D , Dog=Dog(), answer1=answer1, dispanswers=dispanswers, variable=variable, variable2=variable2)
     people = [Person("Billy", 17, "Soccer"), Person("Marc", 17, " Basketball"), Person("Allen", 17, " Coding")]
-    return render_template("williamminilab.html", people=people)
+    return render_template("williamminilab.html", people=people, Dog=Dog(), D=D)
 
