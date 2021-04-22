@@ -11,6 +11,18 @@ def upload():
     return render_template("homepage2.html")
 
 
+@Cowboys_William_bp.route("/response")
+def response():
+    return render_template("response.html")
+
+
+@Cowboys_William_bp.route("/feedback", methods=["POST", "GET"])
+def feedback():
+    if request.method == 'POST':
+        return render_template("response.html")
+    return render_template("feedback.html")
+
+
 @Cowboys_William_bp.route("/williamminilab", methods=["POST", "GET"])
 def minilab():
     if request.method == 'POST':
@@ -24,7 +36,7 @@ def minilab():
         variable = int(num1)
         variable2 = int(num2)
         dispanswers = [answer1]
-        return render_template("williamminilab.html", D=D , Dog=Dog(), answer1=answer1, dispanswers=dispanswers, variable=variable, variable2=variable2)
+        return render_template("williamminilab.html", D=D, Dog=Dog(), answer1=answer1, dispanswers=dispanswers,
+                               variable=variable, variable2=variable2)
     people = [Person("Billy", 17, "Soccer"), Person("Marc", 17, " Basketball"), Person("Allen", 17, " Coding")]
     return render_template("williamminilab.html", people=people, Dog=Dog(), D=D)
-
