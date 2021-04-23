@@ -5,7 +5,7 @@ class Counters:
 
     def wordcount(self):
         input = str(self._sentence)
-        input_split = input.split(' ')
+        input_split = input.split(' ') #turns sentence into list of words
         wordcount = len(input_split)
         return wordcount
 
@@ -13,6 +13,6 @@ class Counters:
         lettercount = 0
         input = str(self._sentence)
         input_split = input.split(' ')
-        for word in input_split:
+        for word in input_split: #cycles through list of words
             lettercount = lettercount + len(word)
         return lettercount
