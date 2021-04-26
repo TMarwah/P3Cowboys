@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request
-from Cowboys.William.williamminilab import Person, Exponent, Dog, D
+from Cowboys.William.williamminilab import Person, Exponent, Animal
 
 Cowboys_William_bp = Blueprint('Cowboys_William', __name__,
                                template_folder='templates',
@@ -23,6 +23,19 @@ def feedback():
     return render_template("feedback.html")
 
 
+@Cowboys_William_bp.route("/animals", methods=["POST", "GET"])
+def animals():
+    if request.method == 'POST':
+        animal1 = request.form.get('animal1')
+        animal2 = request.form.get('animal2')
+        input1 = animal1
+        input2 = animal2
+        animal = [Animal('Dog', 'Yorky'), Animal('Dog', 'Weiner'), Animal('Dog', 'Pug'), Animal('Cat', 'Tom')]
+        return render_template("animals.html", animal=animal, animal1=animal1, input1=input1, animal2=animal2, input2=input2)
+    animal = [Animal('Dog', 'Yorky'), Animal('Dog', 'Weiner'), Animal('Dog', 'Pug'), Animal('Cat', 'Tom')]
+    return render_template("animals.html", animal=animal)
+
+
 @Cowboys_William_bp.route("/williamminilab", methods=["POST", "GET"])
 def minilab():
     if request.method == 'POST':
@@ -35,8 +48,8 @@ def minilab():
         answer1 = calc.power()
         variable = int(num1)
         variable2 = int(num2)
-        dispanswers = [answer1]
-        return render_template("williamminilab.html", D=D, Dog=Dog(), answer1=answer1, dispanswers=dispanswers,
+        dispanswers = answer1
+        animals = [Animal('Dog', 'Yorky'), Animal('Dog', 'Weiner'), Animal('Dog', 'Pug'), Animal('Cat', 'Tom')]
+        return render_template("williamminilab.html", animals=animals, answer1=answer1, dispanswers=dispanswers,
                                variable=variable, variable2=variable2)
-    people = [Person("Billy", 17, "Soccer"), Person("Marc", 17, " Basketball"), Person("Allen", 17, " Coding")]
-    return render_template("williamminilab.html", people=people, Dog=Dog(), D=D)
+    return render_template("williamminilab.html")

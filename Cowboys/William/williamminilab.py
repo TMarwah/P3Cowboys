@@ -40,32 +40,27 @@ class Exponent:
         return self.number_1 ** self.number_2
 
 
-class Dog:
-    def setType1(self, t):
-        self.type1 = t
-
-    def getType1(self):
-        return self.type1
-
-    def setType2(self, t):
-        self.type2 = t
-
-    def getType2(self):
-        return self.type2
-
-    def setType3(self, t):
-            self.type3 = t
-
-    def getType3(self):
-        return self.type3
+class Animal:
+    def __init__(self, animal, name):
+        self._animal = animal
+        self._name = name
 
     @property
-    def display(self):
-        return 'Type1:', self.type1, 'Type2:', self.type2, 'Type3:', self.type3
+    def animal(self):
+        return self._animal
+
+    @property
+    def name(self):
+        return self._name
+
+    @property
+    def print(self):
+        return self._name + ' ' + self._animal
 
 
-D = Dog()
-D.setType1('Yorky')
-D.setType2('Weiner dog')
-D.setType3('Pug')
+if __name__ == "__main__":
+    animals = [Animal('Dog', 'Yorky'), Animal('Dog', 'Weiner'), Animal('Dog', 'Pug'), Animal('Cat', 'Tom')]
+    for animal in animals:
+        print(animal.print)
+
 
