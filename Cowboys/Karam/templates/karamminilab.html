@@ -114,3 +114,36 @@ color:  brown
 
     </code>
 </pre>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<h1> Numbers Class </h1>
+<P> Enter your first number in the first submission box</P>
+<P> Enter your second number in the second submission box</P>
+<p
+<form method="post">
+    <div class="container">
+        <div class="input-group mb-3" >
+            <input type="number" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="number1" min="1" max="100">
+        </div>
+    </div>
+    <div class="container">
+        <div class="input-group mb-3" >
+            <input type="number" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="number2" min="1" max="100">
+        </div>
+    </div>
+    <button class="btn btn-outline-secondary" type="submit" id="button-addon1">Go!</button>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <p>add: {{add}}</p>
+                <p>Difference: {{diff}}</p>
+                <p>Product: {{product}}</p>
+                <p>Quotient: {{quotient}}</p>
+            </div>
+        </div>
+    </div>
+</form>
