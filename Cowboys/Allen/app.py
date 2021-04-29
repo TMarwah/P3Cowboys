@@ -1,6 +1,6 @@
 from flask import Blueprint
 from flask import render_template, request
-from Cowboys.Allen.allenminilab import Prime
+from Cowboys.Allen.allenminilab import Prime, Vowel
 
 
 backgrounds = ["https://www.teahub.io/photos/full/193-1933361_laptop-aesthetic-wallpapers-anime.jpg"]
@@ -27,12 +27,17 @@ def upload():
 def minilab():
 
     if(request.method == 'POST'):
+        if(request.form["select"] == "prime"):
 
-        number = request.form.get('number')
-        n = int(number)
-        return render_template("allenminilab.html", prime = Prime(n))
+            number = request.form.get('number')
+            n = int(number)
+            return render_template("allenminilab.html", output = Prime(n).solution)
+        else:
+            string = request.form.get('number')
+            word = str(string)
+            return render_template("allenminilab.html", output = Vowel(word).vowel_count)
 
-    return render_template("allenminilab.html", prime = Prime(2))
+    return render_template("allenminilab.html", output = "Select Option")
 
 
 
