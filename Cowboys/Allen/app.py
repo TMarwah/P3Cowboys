@@ -1,9 +1,9 @@
 from flask import Blueprint
 from flask import render_template, request
-from Cowboys.Allen.allenminilab import Prime, Vowel
+from Cowboys.Allen.allenminilab import Prime
 
 
-backgrounds = ["https://i.pinimg.com/736x/09/a0/e8/09a0e8ef1de9a29ed53238de10c39540.jpg"]
+backgrounds = ["https://www.teahub.io/photos/full/193-1933361_laptop-aesthetic-wallpapers-anime.jpg"]
 
 Cowboys_Allen_bp = Blueprint('Cowboys_Allen', __name__,
                              template_folder='templates',
@@ -25,19 +25,14 @@ def upload():
 
 @Cowboys_Allen_bp.route("/minilab", methods=["POST", "GET"])
 def minilab():
-    background = backgrounds
+
     if(request.method == 'POST'):
 
-        if(request.form["select"] == "prime"):
-            number = request.form.get('number')
-            n = int(number)
-            return render_template("allenminilab.html", output = Prime(n).solution, background = background)
-        else:
-            string = request.form.get('number')
-            word = str(string)
-            return render_template("allenminilab.html", output = Vowel(word).vowel_count, background = background)
+        number = request.form.get('number')
+        n = int(number)
+        return render_template("allenminilab.html", prime = Prime(n))
 
-    return render_template("allenminilab.html")
+    return render_template("allenminilab.html", prime = Prime(2))
 
 
 
