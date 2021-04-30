@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request
-from .marcminilab import Robot, Calculator, Robot1
+from .marcminilab import Robot, Calculator, Robot1, Solution
 
 
 Cowboys_Marc_bp = Blueprint('Cowboys_Marc', __name__,
@@ -12,9 +12,9 @@ def minilab():
     if(request.method == 'POST'):
         num1 = request.form.get('number1')
         num2 = request.form.get('number2')
-
         x = int(num1)
         y = int(num2)
+        nums = [x,y]
         calc = Calculator(x,y)
         sum = calc.add()
         diff = calc.sub()
@@ -25,7 +25,7 @@ def minilab():
         robots.append(Robot1("Michael", 67, "Magenta"))
         robots.append(Robot1("Suzan", 50, "Orange"))
         robots.append(Robot1("Bob", 100, "Baby Blue"))
-        return render_template("marcminilab.html", Robot=Robot(), robots=robots,sum=sum,diff=diff, product=product,quotient=quotient)
+        return render_template("marcminilab.html", Robot=Robot(), robots=robots,sum=sum,diff=diff, product=product,quotient=quotient, nums=nums)
 
     robots = []
     robots.append(Robot1("Tom", 55, "Red"))
@@ -34,3 +34,12 @@ def minilab():
     robots.append(Robot1("Bob", 100, "Baby Blue"))
     return render_template("marcminilab.html", Robot=Robot(), robots=robots)
 
+@Cowboys_Marc_bp.route("/sort", methods=["POST", "GET"])
+def sort():
+    if(request.method == 'POST'):
+        sentence = request.form.get('sentence')
+        input=sentence
+        ob=Solution()
+        output=ob.solve(input)
+        return render_template("sort.html", output=output)
+    return render_template("sort.html")
