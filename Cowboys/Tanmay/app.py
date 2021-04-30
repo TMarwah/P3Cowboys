@@ -16,9 +16,11 @@ def login():
 def minilab():
     if(request.method == 'POST'):
         sentence = request.form.get('sentence')
+        sentencesort = request.form.get('sentencesort')
         input = sentence
+        input2 = sentencesort
         return render_template("tanmayminilab.html",wordcount = Counters(input).wordcount(),
-                               lettercount = Counters(input).lettercount(), sorted = Counters(input).bubblesort())
+                               lettercount = Counters(input).lettercount(), sorted = Counters(input2).bubblesort())
 
     return render_template("tanmayminilab.html",wordcount = Counters(2).wordcount(),
                            lettercount = Counters(2).lettercount(), sorted = Counters(2).bubblesort())
