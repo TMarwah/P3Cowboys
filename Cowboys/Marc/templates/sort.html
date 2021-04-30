@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <style>
+    h3 {
+        text-color: white;
+        text-size: 10%;
+    }
+
+  pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  a:link, a:visited {
+    background-color: gray;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a:hover, a:active {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  button {
+    align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+</style>
+</head>
+
+<a href="/"> Home </a>
+<a href="/cowboys/marc/marcminilab"> Calculator Class </a>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<h1> Vowel and Consonant Sort </h1>
+<P> Enter any words you want!</P>
+<P> Click Go! to sort the vowels and consonants from your words</P>
+<p>Vowels are listed first, then consonants after.</p>
+<form method="post">
+    <div class="container">
+        <div class="input-group mb-3" >
+            <button class="btn btn-outline-secondary" type="submit" id="button-addon1">Go!</button>
+            <input type="string" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="sentence" min="1" max="100">
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <p>{{output}}</p>
+            </div>
+        </div>
+    </div>
+</form>

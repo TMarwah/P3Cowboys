@@ -47,3 +47,22 @@ class Robot1:
         self.name = name
         self.color = color
         self.weight = weight
+
+
+
+class Solution:
+    def solve(self, s):
+        vowels = 'aeiou'
+        k = ''
+        t = ''
+        for c in s:
+            if c in vowels :
+                k = k + c
+            else :
+                t = t + c
+                k = ''.join(sorted(k))
+                t = ''.join(sorted(t))
+        return k + t
+
+ob = Solution()
+print(ob.solve("helloworld"))
