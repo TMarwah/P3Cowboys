@@ -70,40 +70,30 @@ function myFunction() {
 
 </style>
 </head>
-
 <a href="/"> Home </a>
+<a href="/animals"> Animals </a>
 <a href="/exponent"> Exponent Lab </a>
-<a href="/bubblelab"> lowercase/uppercase </a>
-<h1> Animal class </h1>
-<p> This class displays different types of animals</p>
-<p> Input animals you think should be in the list</p>
-<p> Press go when ready</p>
+<p> Lower/Upper Case Class </p>
+<p> Insert 2 words </p>
+<p> Find Number of upper and lower case letters in you words/ sentences</p>
 
 <form method="post">
-    <div class="container">
-        <div class="input-group mb-3" >
-            <input type="name" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="animal1" min="1" max="100">
-        </div>
+Find the number of lower case letters
+    <div class="input-group mb-3" >
+        <input class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="word" required>
     </div>
-    <div class="container">
-        <div class="input-group mb-3" >
-            <input type="name" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="animal2" min="1" max="100">
-        </div>
-    </div>
-    <button class="btn btn-outline-secondary" type="submit" id="button-addon1">Add Animals</button>
-    <pre>
-        <code>
-     {% for animal in animal %}
-     {{animal.print}}
-     {% endfor %}
-     {{input1}}
 
-     {{input2}}
-    <div class="container">
-        <div class="card">
-            <div class="card-body">
-            </div>
+    <div class="card">
+        <div class="card-body">
+            {{lowercase}}
         </div>
     </div>
-        </code>
-    </pre>
+    Find the number of Upper case letters
+    <div class="input-group mb-3" >
+        <input class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="list" required>
+    </div>
+    <button class="btn btn-danger" type="submit" id="button-addon2" color="white">Go!</button>
+    <div class="card">
+        <div class="card-body">
+            {{uppercase}}
+</form>
