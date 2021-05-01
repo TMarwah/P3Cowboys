@@ -16,9 +16,10 @@ def minilab():
 
 
 @Cowboys_Karam_bp.route("/karambubblesort.html", methods=["POST", "GET"])
-def Characters():
+def qaracters():
     if request.method == 'POST':
         string = request.form.get('word')
         word = str(string)
-        return render_template("karamminilab.html", characters=Characters(word).Characters)
+        return render_template("karambubblesort.html", characters=Characters(word).characters)
     return render_template("karambubblesort.html")
+

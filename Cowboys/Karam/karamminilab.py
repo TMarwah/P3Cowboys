@@ -29,14 +29,13 @@ print('color: ', Floppa.color)
 print("\nAccessing class variable using class name")
 print(Caracal.animal)
 
-
 class Characters:
 
     def __init__(self, string):
         self._string = string
 
     @property
-    def Characters(self):
+    def characters(self):
         str = self._string
         count = 0
         word = set("!@#$%^&*()")
