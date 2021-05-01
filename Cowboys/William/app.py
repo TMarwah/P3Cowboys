@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request
-from Cowboys.William.williamminilab import Person, Exponent, Animal
+from Cowboys.William.williamminilab import Exponent, Animal, Lower_Case, Upper_Case
 
 Cowboys_William_bp = Blueprint('Cowboys_William', __name__,
                                template_folder='templates',
@@ -11,15 +11,24 @@ def upload():
     return render_template("homepage2.html")
 
 
-@Cowboys_William_bp.route("/response")
+@Cowboys_William_bp.route("/response", methods=["POST", "GET"])
 def response():
-    return render_template("response.html")
+    if request.method == 'GET':
+        name = request.form.get('name')
+        comment = request.form.get('comment')
+        input1 = name
+        input2 = comment
+        return render_template("response.html", name=name, comment=comment, input1=input1, input2=input2)
 
 
 @Cowboys_William_bp.route("/feedback", methods=["POST", "GET"])
 def feedback():
     if request.method == 'POST':
-        return render_template("response.html")
+        name = request.form.get('name')
+        comment = request.form.get('comment')
+        input1 = name
+        input2 = comment
+        return render_template("response.html", name=name, comment=comment, input1=input1, input2=input2)
     return render_template("feedback.html")
 
 
@@ -31,13 +40,14 @@ def animals():
         input1 = animal1
         input2 = animal2
         animal = [Animal('Dog', 'Yorky'), Animal('Dog', 'Weiner'), Animal('Dog', 'Pug'), Animal('Cat', 'Tom')]
-        return render_template("animals.html", animal=animal, animal1=animal1, input1=input1, animal2=animal2, input2=input2)
+        return render_template("animals.html", animal=animal, animal1=animal1, input1=input1, animal2=animal2,
+                               input2=input2)
     animal = [Animal('Dog', 'Yorky'), Animal('Dog', 'Weiner'), Animal('Dog', 'Pug'), Animal('Cat', 'Tom')]
     return render_template("animals.html", animal=animal)
 
 
-@Cowboys_William_bp.route("/williamminilab", methods=["POST", "GET"])
-def minilab():
+@Cowboys_William_bp.route("/exponent", methods=["POST", "GET"])
+def exponent():
     if request.method == 'POST':
         num1 = request.form.get('number1')
         num2 = request.form.get('number2')
@@ -50,6 +60,17 @@ def minilab():
         variable2 = int(num2)
         dispanswers = answer1
         animals = [Animal('Dog', 'Yorky'), Animal('Dog', 'Weiner'), Animal('Dog', 'Pug'), Animal('Cat', 'Tom')]
-        return render_template("williamminilab.html", animals=animals, answer1=answer1, dispanswers=dispanswers,
+        return render_template("exponent.html", animals=animals, answer1=answer1, dispanswers=dispanswers,
                                variable=variable, variable2=variable2)
-    return render_template("williamminilab.html")
+    return render_template("exponent.html")
+
+
+@Cowboys_William_bp.route("/bubblelab", methods=["POST", "GET"])
+def lettercount():
+    if request.method == 'POST':
+        string = request.form.get('word')
+        list = request.form.get('list')
+        word = str(string)
+        number = str(list)
+        return render_template("bubblelab.html", lowercase = Lower_Case(word).lower_case, uppercase = Upper_Case(number).upper_case)
+    return render_template("bubblelab.html")
