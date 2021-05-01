@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, request
 
-from .karamminilab import Caracal
+from .karamminilab import Caracal, Characters
 
 Cowboys_Karam_bp = Blueprint('Cowboys_Karam', __name__,
                                template_folder='templates',
@@ -13,3 +13,12 @@ def upload():
 def minilab():
     caracals= [Caracal("skinny", "beige"), Caracal("fat", "brown")]
     return render_template("karamminilab.html", caracals=caracals)
+
+
+@Cowboys_Karam_bp.route("/karambubblesort.html", methods=["POST", "GET"])
+def Characters():
+    if request.method == 'POST':
+        string = request.form.get('word')
+        word = str(string)
+        return render_template("karamminilab.html", characters=Characters(word).Characters)
+    return render_template("karambubblesort.html")

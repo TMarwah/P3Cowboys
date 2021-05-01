@@ -28,3 +28,20 @@ print('color: ', Floppa.color)
 # name also
 print("\nAccessing class variable using class name")
 print(Caracal.animal)
+
+
+class Characters:
+
+    def __init__(self, string):
+        self._string = string
+
+    @property
+    def Characters(self):
+        str = self._string
+        count = 0
+        word = set("!@#$%^&*()")
+        for ABC in str:
+            if ABC in word:
+                count = count + 1
+
+        return count

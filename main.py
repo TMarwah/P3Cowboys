@@ -9,7 +9,7 @@ from flask import Flask, render_template
 from Cowboys.Allen.app import Cowboys_Allen_bp
 from Cowboys.Marc.app import Cowboys_Marc_bp
 from Cowboys.Tanmay.app import Cowboys_Tanmay_bp
-from Cowboys.Karam. app import Cowboys_Karam_bp
+from Cowboys.Karam.app import Cowboys_Karam_bp
 from Cowboys.William.app import Cowboys_William_bp
 import requests
 import random
