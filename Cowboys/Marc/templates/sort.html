@@ -56,22 +56,26 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-<h1> Vowel and Consonant Sort </h1>
+<h1> Vowel and Bubble Sort! </h1>
 <P> Enter any words you want!</P>
-<P> Click Go! to sort the vowels and consonants from your words</P>
-<p>Vowels are listed first, then consonants after.</p>
+<P> Use the dropdown menu to select which sorting you would like.</P>
+<p>Press the Go! button to see your results</p>
+<p> The Vowel Sort outputs the vowels and the consonants of the input.</p>
+<p> The Bubble Sort sorts the words in the output based on length.</p>
 <form method="post">
-    <div class="container">
-        <div class="input-group mb-3" >
-            <button class="btn btn-outline-secondary" type="submit" id="button-addon1">Go!</button>
-            <input type="string" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="sentence" min="1" max="100">
+    <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="select" name="select">
+        <option selected>Sort Selection</option>
+        <option value="vowel">Vowel Sort</option>
+        <option value="bubble">Bubble Sort</option>
+    </select>
+
+    <div class="input-group mb-3" >
+        <button class="btn btn-danger" type="submit" id="button-addon1" color="white">Go!</button>
+        <input class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="number" required>
     </div>
 
-    <div class="container">
-        <div class="card">
-            <div class="card-body">
-                <p>{{output}}</p>
-            </div>
+    <div class="card">
+        <div class="card-body">
+            {{output}}
         </div>
     </div>
-</form>

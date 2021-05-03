@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request
-from .marcminilab import Robot, Calculator, Robot1, Solution
+from .marcminilab import Robot, Calculator, Robot1, Solution, bubblesort
 
 
 Cowboys_Marc_bp = Blueprint('Cowboys_Marc', __name__,
@@ -37,9 +37,13 @@ def minilab():
 @Cowboys_Marc_bp.route("/sort", methods=["POST", "GET"])
 def sort():
     if(request.method == 'POST'):
-        sentence = request.form.get('sentence')
-        input=sentence
-        ob=Solution()
-        output=ob.solve(input)
-        return render_template("sort.html", output=output)
+        if(request.form["select"] == "vowel"):
+            sentence = request.form.get('number')
+            input=sentence
+            ob=Solution()
+            output=ob.solve(input)
+            return render_template("sort.html", output=output)
+        if(request.form["select"] == "bubble"):
+            bubble = request.form.get('number')
+            return render_template("sort.html", output = bubblesort(bubble).bubblesort)
     return render_template("sort.html")
