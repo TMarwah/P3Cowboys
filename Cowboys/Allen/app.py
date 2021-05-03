@@ -1,6 +1,6 @@
 from flask import Blueprint
 from flask import render_template, request
-from Cowboys.Allen.allenminilab import Prime, Vowel
+from Cowboys.Allen.allenminilab import Prime, Vowel, bubblesort
 
 
 backgrounds = ["https://www.teahub.io/photos/full/193-1933361_laptop-aesthetic-wallpapers-anime.jpg"]
@@ -32,10 +32,13 @@ def minilab():
             number = request.form.get('number')
             n = int(number)
             return render_template("allenminilab.html", output = Prime(n).solution)
-        else:
+        if(request.form["select"] == "vowel"):
             string = request.form.get('number')
             word = str(string)
             return render_template("allenminilab.html", output = Vowel(word).vowel_count)
+        if(request.form["select"] == "bubble"):
+            bubble = request.form.get('number')
+            return render_template("allenminilab.html", output = bubblesort(bubble).bubblesort)
 
     return render_template("allenminilab.html", output = "Select Option")
 
