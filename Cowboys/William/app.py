@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request
-from Cowboys.William.williamminilab import Exponent, Animal, Lower_Case, Upper_Case
+from Cowboys.William.williamminilab import Exponent, Animal, Lower_Case, Upper_Case, bubblesort
 
 Cowboys_William_bp = Blueprint('Cowboys_William', __name__,
                                template_folder='templates',
@@ -65,12 +65,21 @@ def exponent():
     return render_template("exponent.html")
 
 
-@Cowboys_William_bp.route("/bubblelab", methods=["POST", "GET"])
+@Cowboys_William_bp.route("/letterfinder", methods=["POST", "GET"])
 def lettercount():
     if request.method == 'POST':
         string = request.form.get('word')
         list = request.form.get('list')
         word = str(string)
         number = str(list)
-        return render_template("bubblelab.html", lowercase = Lower_Case(word).lower_case, uppercase = Upper_Case(number).upper_case)
-    return render_template("bubblelab.html")
+        return render_template("letterfinder.html", lowercase = Lower_Case(word).lower_case, uppercase = Upper_Case(number).upper_case)
+    return render_template("letterfinder.html")
+
+
+@Cowboys_William_bp.route("/bubblesort", methods=["POST", "GET"])
+def minilab():
+    if request.method == 'POST':
+            bubble = request.form.get('number')
+            return render_template("bubblesort.html", output = bubblesort(bubble).bubblesort)
+
+    return render_template("bubblesort.html")

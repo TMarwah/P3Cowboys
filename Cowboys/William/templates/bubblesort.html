@@ -74,37 +74,15 @@ function myFunction() {
 <a href="/"> Home </a>
 <a href="/exponent"> Exponent Lab </a>
 <a href="/letterfinder"> lowercase/uppercase </a>
-<a href="/bubblesort"> bubble sort </a>
-<h1> Animal class </h1>
-<p> This class displays different types of animals</p>
-<p> Input animals you think should be in the list</p>
-<p> Press go when ready</p>
+<a href="/animals"> animals </a>
+<h1> Bubble sort</h1>
 
 <form method="post">
     <div class="container">
         <div class="input-group mb-3" >
-            <input type="name" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="animal1" min="1" max="100">
+            <input type="name" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="number" min="1" max="100">
         </div>
     </div>
-    <div class="container">
-        <div class="input-group mb-3" >
-            <input type="name" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="animal2" min="1" max="100">
-        </div>
-    </div>
-    <button class="btn btn-outline-secondary" type="submit" id="button-addon1">Add Animals</button>
-    <pre>
-        <code>
-     {% for animal in animal %}
-     {{animal.print}}
-     {% endfor %}
-     {{input1}}
+    <button class="btn btn-outline-secondary" type="submit" id="button-addon1">press me</button>
 
-     {{input2}}
-    <div class="container">
-        <div class="card">
-            <div class="card-body">
-            </div>
-        </div>
-    </div>
-        </code>
-    </pre>
+{{output}}

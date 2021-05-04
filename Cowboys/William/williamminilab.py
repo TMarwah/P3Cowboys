@@ -101,18 +101,21 @@ class Upper_Case:
         return count
 
 
-def bubble(list_a):
-    indexing_length = len(list_a) - 1
-    sorted = False
+class bubblesort:
+    def __init__(self, string):
+        self._string = string
 
-    while not sorted:
-        sorted = True
+    @property
+    def bubblesort(self):
+        num = str(self._string)
+        input_split = num.split(' ')
+        length = len(input_split)
 
-        for i in range(0, indexing_length):
-            if list_a[i] > list_a[i + 1]:
-                sorted = False
-                list_a[i], list_a[i + 1] = list_a[i + 1], list_a[i]
-    return list_a
+        def sort(input_split):
+            for term in range(length):
+                for x in range(len(input_split) - 1):
+                    if len(input_split[x]) > len(input_split[x + 1]):
+                        input_split[x], input_split[x + 1] = input_split[x + 1], input_split[x]
 
-
-print(bubble([4, 8, 1, 14, 8, 2, 9, 5, 7, 6, 6]))
+        sort(input_split)
+        return (input_split)
