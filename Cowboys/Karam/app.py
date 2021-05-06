@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, request
 
-from .karamminilab import Caracal, Characters
+from .karamminilab import Caracal, Characters, bubblesort
 
 Cowboys_Karam_bp = Blueprint('Cowboys_Karam', __name__,
                                template_folder='templates',
@@ -23,3 +23,11 @@ def qaracters():
         return render_template("karambubblesort.html", characters=Characters(word).characters)
     return render_template("karambubblesort.html")
 
+
+@Cowboys_Karam_bp.route("/otherubblesort", methods=["POST", "GET"])
+def minilabs():
+    if request.method == 'POST':
+        bubble = request.form.get('character')
+        return render_template("otherubblesort.html", output = bubblesort(bubble).bubblesort)
+
+    return render_template("otherubblesort.html")
