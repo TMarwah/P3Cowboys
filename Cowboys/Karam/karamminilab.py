@@ -58,7 +58,7 @@ class bubblesort:
         def sort(input_split):
             for term in range(length):
                 for x in range(len(input_split) - 1):
-                    if len(input_split[x]) > len(input_split[x + 1]):
+                    if input_split[x] > input_split[x + 1]:
                         input_split[x], input_split[x + 1] = input_split[x + 1], input_split[x]
 
         sort(input_split)
