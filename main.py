@@ -6,7 +6,7 @@ Flask(__name__) establishes resources on the filesystem (aka package).
 """
 
 from flask import Flask, render_template
-from Cowboys.Allen.app import Cowboys_Allen_bp
+from Cowboys.Allen.app import Cowboys_minilab1_bp
 from Cowboys.Marc.app import Cowboys_Marc_bp
 from Cowboys.Tanmay.app import Cowboys_Tanmay_bp
 from Cowboys.Karam.app import Cowboys_Karam_bp
@@ -15,7 +15,7 @@ import requests
 import random
 
 app = Flask(__name__)
-app.register_blueprint(Cowboys_Allen_bp, url_prefix='/cowboys/allen')
+app.register_blueprint(Cowboys_minilab1_bp, url_prefix='/cowboys/minilab1')
 app.register_blueprint(Cowboys_Marc_bp, url_prefix='/cowboys/marc')
 app.register_blueprint(Cowboys_Tanmay_bp, url_prefix='/cowboys/tanmay')
 app.register_blueprint(Cowboys_Karam_bp, url_prefix='/cowboys/karam')
