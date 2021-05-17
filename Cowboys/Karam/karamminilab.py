@@ -44,3 +44,22 @@ class Characters:
                 count = count + 1
 
         return count
+
+class bubblesort:
+    def __init__(self, string):
+        self._string = string
+
+    @property
+    def bubblesort(self):
+        sentance = self._string
+        input_split = sentance.split(' ')
+        length = len(input_split)
+
+        def sort(input_split):
+            for term in range(length):
+                for x in range(len(input_split) - 1):
+                    if input_split[x] > input_split[x + 1]:
+                        input_split[x], input_split[x + 1] = input_split[x + 1], input_split[x]
+
+        sort(input_split)
+        return (input_split)

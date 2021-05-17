@@ -107,14 +107,14 @@ class bubblesort:
 
     @property
     def bubblesort(self):
-        num = str(self._string)
-        input_split = num.split(' ')
+        sentance = self._string
+        input_split = sentance.split(' ')
         length = len(input_split)
 
         def sort(input_split):
             for term in range(length):
                 for x in range(len(input_split) - 1):
-                    if len(input_split[x]) > len(input_split[x + 1]):
+                    if input_split[x] > input_split[x + 1]:
                         input_split[x], input_split[x + 1] = input_split[x + 1], input_split[x]
 
         sort(input_split)
