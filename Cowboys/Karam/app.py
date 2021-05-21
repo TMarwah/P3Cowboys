@@ -31,3 +31,8 @@ def minilabs():
         return render_template("otherubblesort.html", output = bubblesort(bubble).bubblesort)
 
     return render_template("otherubblesort.html")
+
+
+@Cowboys_Karam_bp.route("/Dashboard")
+def model():
+    return render_template("/Dashboard.html", model=model)
