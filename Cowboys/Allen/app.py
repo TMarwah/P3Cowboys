@@ -1,46 +1,41 @@
 from flask import Blueprint
 from flask import render_template, request
-from Cowboys.Allen.allenminilab import Prime, Vowel, bubblesort
+from Cowboys.Allen.minilab1 import CreateTask
 
 
 backgrounds = ["https://www.teahub.io/photos/full/193-1933361_laptop-aesthetic-wallpapers-anime.jpg"]
 
-Cowboys_Allen_bp = Blueprint('Cowboys_Allen', __name__,
+Cowboys_minilab1_bp = Blueprint('Cowboys_Allen', __name__,
                              template_folder='templates',
                              static_folder='static', static_url_path='assets')
 
 
-@Cowboys_Allen_bp.route('/')
+@Cowboys_minilab1_bp.route('/')
 def index():
     return "Y2021 tri1 Home Site"
 
-@Cowboys_Allen_bp.route('/browse')
+@Cowboys_minilab1_bp.route('/browse')
 def browse():
     return render_template("browse.html")
 
-@Cowboys_Allen_bp.route("/upload")
+@Cowboys_minilab1_bp.route("/upload")
 def upload():
     return render_template("upload.html")
 
 
-@Cowboys_Allen_bp.route("/minilab", methods=["POST", "GET"])
+@Cowboys_minilab1_bp.route("/minilab", methods=["POST", "GET"])
 def minilab():
 
     if(request.method == 'POST'):
-        if(request.form["select"] == "prime"):
-
+        if(request.form["select"] == "average"):
             number = request.form.get('number')
-            n = int(number)
-            return render_template("allenminilab.html", output = Prime(n).solution)
-        if(request.form["select"] == "vowel"):
-            string = request.form.get('number')
-            word = str(string)
-            return render_template("allenminilab.html", output = Vowel(word).vowel_count)
-        if(request.form["select"] == "bubble"):
-            bubble = request.form.get('number')
-            return render_template("allenminilab.html", output = bubblesort(bubble).bubblesort)
+            return render_template("minilab1.html", output = CreateTask(number, "average").testproc)
 
-    return render_template("allenminilab.html", output = "Select Option")
+        if(request.form["select"] == "sort"):
+            number = request.form.get('number')
+            return render_template("minilab1.html", output = CreateTask(number, "sort").testproc)
+
+    return render_template("minilab1.html", output = "Select Option")
 
 
 

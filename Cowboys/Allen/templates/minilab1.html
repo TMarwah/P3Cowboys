@@ -2,21 +2,23 @@
 
 
 {% block body %}
+<!-- HTML Code is complimented by bootstrap,
+button link: https://getbootstrap.com/docs/4.0/components/buttons/ ,
+input box link: https://getbootstrap.com/docs/4.0/components/input-group/ ,
+output card link: https://getbootstrap.com/docs/4.0/components/card/ -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 <form method="post">
     <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="select" name="select">
-        <option selected>Sort Selection</option>
-        <option value="prime">Find Prime Numbers</option>
-        <option value="vowel">Find How Many Vowels</option>
-        <option value="bubble">Bubble Sort</option>
+        <option value="average">Find Average Rounded Score</option>
+        <option value="sort">Sort Scores</option>
     </select>
 
     <div class="input-group mb-3" >
         <button class="btn btn-danger" type="submit" id="button-addon1" color="white">Go!</button>
-        <input class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="number" required>
+        <input class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" name="number" type = "number" required>
     </div>
 
     <div class="card">

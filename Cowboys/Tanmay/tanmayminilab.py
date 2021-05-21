@@ -21,6 +21,8 @@ class Counters:
         input = str(self._sentence)
         input_split = input.split(' ')
         length = len(input_split)
+        if length == 1:
+            return("This sentence cannot be sorted!")
         def sort(input_split):
             for term in range(length):
                 for x in range(len(input_split)-1):
