@@ -24,7 +24,7 @@ William Cherres | Work on a Feedback and Response page. It is still being debate
 Allen Xu| Create table for storing the required elements the user uploads in the model.py file | 
 Marc Humeau| Work on database that stores user inputted information about business, and then display it onto a browse page that is style similarly like Instagram. This will work in tandom with the user input field developed by Allen|
 Tanmay Marwah| Create user login page that checks for credentials stored in the database, as well as locks the user out from accessing the rest of the site until they have authenticated.  |
-Karam Alshaikh | |
+Karam Alshaikh | |  Work on deployment material; creating website domain and adding a user profile page where the user can post feedback and see their following, etc.
 
 # Project Code Snippets (How it was made)
 ## Browse Page (Allen)
