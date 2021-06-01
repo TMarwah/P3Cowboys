@@ -11,16 +11,6 @@ def upload():
     return render_template("homepage2.html")
 
 
-@Cowboys_William_bp.route("/response", methods=["POST", "GET"])
-def response():
-    if request.method == 'GET':
-        name = request.form.get('name')
-        comment = request.form.get('comment')
-        input1 = name
-        input2 = comment
-        return render_template("response.html", name=name, comment=comment, input1=input1, input2=input2)
-
-
 @Cowboys_William_bp.route("/feedback", methods=["POST", "GET"])
 def feedback():
     if request.method == 'POST':
