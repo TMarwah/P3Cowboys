@@ -31,25 +31,25 @@ Karam Alshaikh | |
 - This code shows blah blah blah
 - Link to full code: 
 ```
-Insert code here
+Insert code snippet here
 ```
 ## Profile Page (Karam)
 - This code shows blah blah blah
 - Link to full code: 
 ```
-Insert code here
+Insert code snippet here
 ```
 ## Login Page (Tanmay)
 - This code shows blah blah blah
 - Link to full code: 
 ```
-Insert code here
+Insert code snippet here
 ```
 ## Database (Marc)
 - This code shows blah blah blah
 - Link to full code: 
 ```
-Insert code here
+Insert code snippet here
 ```
 ## Feedback Page (Billy)
 - This code snippet shows the Usage of Get and Post to retrieve feedback and post it on the response page.
