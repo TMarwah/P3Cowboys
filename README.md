@@ -27,25 +27,25 @@ Tanmay Marwah| Create user login page that checks for credentials stored in the 
 Karam Alshaikh | |
 
 # Project Code Snippets (How it was made)
-## Feedback Page (Allen)
+## Browse Page (Allen)
 - This code shows blah blah blah
 - Link to full code: 
 ```
 Insert code here
 ```
-## Feedback Page (Karam)
+## Profile Page (Karam)
 - This code shows blah blah blah
 - Link to full code: 
 ```
 Insert code here
 ```
-## Feedback Page (Tanmay)
+## Login Page (Tanmay)
 - This code shows blah blah blah
 - Link to full code: 
 ```
 Insert code here
 ```
-## Feedback Page (Marc)
+## Database (Marc)
 - This code shows blah blah blah
 - Link to full code: 
 ```
