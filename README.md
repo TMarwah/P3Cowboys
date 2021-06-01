@@ -26,7 +26,7 @@ Marc Humeau     .[Ticket in progress](https://github.com/TMarwah/P3Cowboys/issue
 Tanmay Marwah  .[Ticket in progress](https://github.com/TMarwah/P3Cowboys/issues/9) [Ticket in Review]()| Create user login page that checks for credentials stored in the database, as well as locks the user out from accessing the rest of the site until they have authenticated.  |
 Karam Alshaikh .[Ticket in progress](https://github.com/TMarwah/P3Cowboys/issues/28) [Ticket in Review](https://github.com/TMarwah/P3Cowboys/issues/27)| Work on deployment material; creating website domain and adding a user profile page where the user can post feedback and see their following, etc. | 
 
-# Project Code Snippets (How it was made)
+# Project Code Snippets (Layout for final project presentation)
 ## Browse Page (Allen)
 - This code shows blah blah blah
 - Link to full code: 
