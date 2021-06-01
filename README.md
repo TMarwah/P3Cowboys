@@ -23,7 +23,7 @@ NAME             | Plans/Roles |
 William Cherres | Work on a Feedback and Response page. It is still being debated whether or not the feedback would be stored in a data base or not. But the Plan is to have a functional feedback and rerturn page that is connected through Get and Post.|
 Allen Xu|  | 
 Marc Humeau| |
-Tanmay Marwah|  |
+Tanmay Marwah| Create user login page that checks for credentials stored in the database, as well as locks the user out from accessing the rest of the site until they have authenticated.  |
 Karam Alshaikh | |
 
 # Mini Lab
