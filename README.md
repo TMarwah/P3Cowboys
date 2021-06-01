@@ -8,7 +8,7 @@ GitHub Repo for the Period 3 Cowboys Team
 # Creators & Github Links
 NAME             | GITHUB Link |
 -------------    | --------------- |
-William Cherres | https://github.com/BillyCherres  |
+William Cherres  | https://github.com/BillyCherres  |
 Allen Xu| https://github.com/allenyxu | 
 Marc Humeau| https://github.com/marchumeau|
 Tanmay Marwah  | https://github.com/TMarwah |
@@ -20,11 +20,11 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
 
 NAME             | Plans/Roles |
 -------------    | --------------- |
-William Cherres | Work on a Feedback and Response page. It is still being debated whether or not the feedback would be stored in a data base or not. But the Plan is to have a functional feedback and rerturn page that is connected through Get and Post.|
-Allen Xu| Create table for storing the required elements the user uploads in the model.py file | 
-Marc Humeau| Work on database that stores user inputted information about business, and then display it onto a browse page that is style similarly like Instagram. This will work in tandom with the user input field developed by Allen|
-Tanmay Marwah| Create user login page that checks for credentials stored in the database, as well as locks the user out from accessing the rest of the site until they have authenticated.  |
-Karam Alshaikh | Work on deployment material; creating website domain and adding a user profile page where the user can post feedback and see their following, etc. | 
+William Cherres [Ticket in progress](https://github.com/TMarwah/P3Cowboys/issues/38) [Ticket in Review](https://github.com/TMarwah/P3Cowboys/issues/13)| Work on a Feedback and Response page. It is still being debated whether or not the feedback would be stored in a data base or not. But the Plan is to have a functional feedback and rerturn page that is connected through Get and Post.|
+Allen Xu        .[Ticket in progress]() [Ticket in Review]()| Create table for storing the required elements the user uploads in the model.py file | 
+Marc Humeau     .[Ticket in progress]() [Ticket in Review]()| Work on database that stores user inputted information about business, and then display it onto a browse page that is style similarly like Instagram. This will work in tandom with the user input field developed by Allen|
+Tanmay Marwah  .[Ticket in progress]() [Ticket in Review]()| Create user login page that checks for credentials stored in the database, as well as locks the user out from accessing the rest of the site until they have authenticated.  |
+Karam Alshaikh .[Ticket in progress]() [Ticket in Review]()| Work on deployment material; creating website domain and adding a user profile page where the user can post feedback and see their following, etc. | 
 
 # Project Code Snippets (How it was made)
 ## Browse Page (Allen)
