@@ -17,12 +17,13 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
 # Final Umbrella Progress tickets
 ** This is the groups current progess/plans for the final project**
 - [video link](https://www.youtube.com/watch?v=SjYZ88i40iQ&ab_channel=Purplebears)
+
 NAME             | Plans/Roles |
 -------------    | --------------- |
 William Cherres | Work on a Feedback and Response page. It is still being debated whether or not the feedback would be stored in a data base or not. But the Plan is to have a functional feedback and rerturn page that is connected through Get and Post.|
 Allen Xu|  | 
 Marc Humeau| |
-Tanmay Marwah  |  |
+Tanmay Marwah|  |
 Karam Alshaikh | |
 
 # Mini Lab
