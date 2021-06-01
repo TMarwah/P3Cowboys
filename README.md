@@ -15,16 +15,58 @@ Tanmay Marwah  | https://github.com/TMarwah |
 Karam Alshaikh |https://github.com/KaramAlshaikh |
 
 # Final Umbrella Progress tickets
-** This is the groups current progess/plans for the final project**
-- [video link](https://www.youtube.com/watch?v=SjYZ88i40iQ&ab_channel=Purplebears)
+**This is the groups current progess/plans for the final project**
+- This [video link](https://www.youtube.com/watch?v=SjYZ88i40iQ&ab_channel=Purplebears) shows the groups progress and plans for the final project described in the table below.
 
 NAME             | Plans/Roles |
 -------------    | --------------- |
 William Cherres | Work on a Feedback and Response page. It is still being debated whether or not the feedback would be stored in a data base or not. But the Plan is to have a functional feedback and rerturn page that is connected through Get and Post.|
 Allen Xu|  | 
-Marc Humeau| Work on database that stores user inputted information about business, and then display it onto a browse page that is style similarly like Instagram. This will work in tandom with the user input field developed by Allen|
-Tanmay Marwah| Create user login page that checks for credentials stored in the database, as well as locks the user out from accessing the rest of the site until they have authenticated.  |
+Marc Humeau| |
+Tanmay Marwah|  |
 Karam Alshaikh | |
+
+# Project Code Snippets (How it was made)
+## Feedback Page (Allen)
+- This code shows blah blah blah
+- Link to full code: 
+```
+Insert code here
+```
+## Feedback Page (Karam)
+- This code shows blah blah blah
+- Link to full code: 
+```
+Insert code here
+```
+## Feedback Page (Tanmay)
+- This code shows blah blah blah
+- Link to full code: 
+```
+Insert code here
+```
+## Feedback Page (Marc)
+- This code shows blah blah blah
+- Link to full code: 
+```
+Insert code here
+```
+## Feedback Page (Billy)
+- This code snippet shows the Usage of Get and Post to retrieve feedback and post it on the response page.
+- [Link to full code of app.py](https://github.com/TMarwah/P3Cowboys/blob/19fdd8cef62f8a8a662cf7a78a3730db92d346da/Cowboys/William/app.py#L1-L75)(Connects feedback/response pages together using Get and Post)
+- [link to full code of feedback page](https://github.com/TMarwah/P3Cowboys/blob/7805f62499a5afa35aff51be5356c4b1cb0f3f20/Cowboys/William/templates/feedback.html#L1-L61)(Feedback page html shows user input)
+- [link to full code of response page](https://github.com/TMarwah/P3Cowboys/blob/7805f62499a5afa35aff51be5356c4b1cb0f3f20/Cowboys/William/templates/response.html#L1-L152)(Response page html shows jinja funtions)
+```
+@Cowboys_William_bp.route("/feedback", methods=["POST", "GET"])
+def feedback():
+    if request.method == 'POST':
+        name = request.form.get('name')
+        comment = request.form.get('comment')
+        input1 = name
+        input2 = comment
+        return render_template("response.html", name=name, comment=comment, input1=input1, input2=input2)
+    return render_template("feedback.html")
+```
 
 # Mini Lab
 
@@ -38,6 +80,7 @@ Allen Xu|  Create blue print| [Blue Print](https://github.com/TMarwah/P3Cowboys/
 Marc Humeau|Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Marc/marcminilab.py)|
 Tanmay Marwah  | Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Tanmay/tanmayminilab.py)|
 Karam Alshaikh |Create blue print |[Blue Print](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/karamminilab.py)|
+
 # Crossover review
 Individual Completed Tickets:
 NAME             | Assingment | What was Finshed|
