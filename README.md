@@ -54,7 +54,7 @@ Insert code snippet here
 ## Feedback Page (Billy)
 - This code snippet shows the Usage of Get and Post to retrieve feedback and post it on the response page.
 - [Link to full code of app.py](https://github.com/TMarwah/P3Cowboys/blob/19fdd8cef62f8a8a662cf7a78a3730db92d346da/Cowboys/William/app.py#L1-L75)(Connects feedback/response pages together using Get and Post)
-- [link to full code of feedback page](https://github.com/TMarwah/P3Cowboys/blob/7805f62499a5afa35aff51be5356c4b1cb0f3f20/Cowboys/William/templates/feedback.html#L1-L61)(Feedback page html shows user input)
+- [link to full code of feedback page](https://github.com/TMarwah/P3Cowboys/blob/d97d3988f9a8f043502862bf08fa68c03e42bae4/Cowboys/William/templates/feedback.html#L1-L106)(Feedback page html shows user input)
 - [link to full code of response page](https://github.com/TMarwah/P3Cowboys/blob/7805f62499a5afa35aff51be5356c4b1cb0f3f20/Cowboys/William/templates/response.html#L1-L152)(Response page html shows jinja funtions)
 ```
 @Cowboys_William_bp.route("/feedback", methods=["POST", "GET"])
