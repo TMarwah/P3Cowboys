@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body{
-            background:#59ABE3;
+            background:#e35980;
             margin:0
         }
 
@@ -90,30 +90,14 @@
 <body>
 <a href="/" class="contact-btn"> Back to home </a>
 
-<form action="{{ url_for('Cowboys_William.feedback') }}" method="post" class="form">
+<form action="/feedback" method="post" class="form">
     <h2 style="font-family: Palatino">Give Us Feedback!</h2>
 
-    <label for="fname" type="First Name:"></label>
-    <input type="text" id="fname" name="firstname" placeholder="Your first name..." placeholder="Your first name.." required>
+    <label for="fname" type="Company Name:"></label>
+    <input type="text" id="fname" name="name" placeholder="Company Name..." placeholder="company name.." required>
 
-    <label for="fname" type="Last Name:"></label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..." required>
-
-    <label for="fname" type="Email:"></label>
-    <input type="text" id="email" name="email" placeholder="Your email...">
-
-    <label for="type" type="Feedback Type:"></label>
-    </br>
-    <select style="width: 440px" id="type" name="type">
-        <option value="help">Help</option>
-        <option value="question">Question</option>
-        <option value="comment">Comment</option>
-        <option value="other">Other</option>
-    </select>
-
-    </br>
     <label for="feedback" type="Feedback:"></label>
-    <input type="text" id="feedback" name="feedback" placeholder="Your feedback..." required>
+    <input type="text" id="feedback" name="comment" placeholder="Your feedback..." required>
 
     <button>Submit Feedback</button>
 </form>

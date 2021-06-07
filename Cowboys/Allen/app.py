@@ -6,8 +6,8 @@ import random, json
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import secure_filename
 from .db import db, db_init
-with open('cowboys.allen.config.json') as file:
-    config = json.load(file)
+#with open('cowboys.allen.config.json') as file:
+   # config = json.load(file)
 
 app = Flask(__name__)
 # SQLAlchemy config. Read more: https://flask-sqlalchemy.palletsprojects.com/en/2.x/
@@ -32,23 +32,23 @@ def index():
 #def browse():
     #return render_template("browse.html")
 
-@Cowboys_minilab1_bp.route('/cowboys/minilab1/browse')
-def browse():
-    backgrounds = ["https://cdn.discordapp.com/attachments/784178874303905792/818606015494094868/812382.png"]
-    review_query = Review.query.all()
-    reviews = []
+#@Cowboys_minilab1_bp.route('/cowboys/minilab1/browse')
+#def browse():
+    #backgrounds = ["https://cdn.discordapp.com/attachments/784178874303905792/818606015494094868/812382.png"]
+   # review_query = Review.query.all()
+   # reviews = []
 
-    for review in review_query:
-        websiteurl = url_for('get_img', id=review.id)
+   # for review in review_query:
+       # websiteurl = url_for('get_img', id=review.id)
 
-        review_dict = {
-            'id': review.id,
-            'username': review.username,
-            'content': review.content,
-            'image':  websiteurl
-        }
-        reviews.append(review_dict)
-    return render_template("browse.html", reviews=reviews, background=random.choice(backgrounds))
+        #review_dict = {
+           # 'id': review.id,
+           # 'username': review.username,
+           # 'content': review.content,
+            #'image':  websiteurl
+       # }
+       # reviews.append(review_dict)
+    #return render_template("browse.html", reviews=reviews, background=random.choice(backgrounds))
 
 @Cowboys_minilab1_bp.route('/cowboys/minilab1/upload', methods=["POST", 'GET'])
 def upload():
