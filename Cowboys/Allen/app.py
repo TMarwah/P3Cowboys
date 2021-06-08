@@ -6,8 +6,8 @@ import random, json
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import secure_filename
 from .db import db, db_init
-#with open('cowboys.allen.config.json') as file:
-   # config = json.load(file)
+with open('cowboys.allen.config.json') as file:
+    config = json.load(file)
 
 app = Flask(__name__)
 # SQLAlchemy config. Read more: https://flask-sqlalchemy.palletsprojects.com/en/2.x/
@@ -28,9 +28,9 @@ Cowboys_minilab1_bp = Blueprint('Cowboys_Allen', __name__,
 def index():
     return "Y2021 tri1 Home Site"
 
-@Cowboys_minilab1_bp.route('/browse')
-def browse():
-    return render_template("browse.html")
+#@Cowboys_minilab1_bp.route('/browse')
+#def browse():
+    #return render_template("browse.html")
 
 @Cowboys_minilab1_bp.route('/cowboys/minilab1/browse')
 def browse():
