@@ -18,7 +18,7 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
 NAME             | Accomplishment |
 -------------    | --------------- |
 William Cherres  | I worked on the UI with Karam and was able to make the feedback page look more proffesional. I then was able to reconnect the Feedback Page back to the Response Page as it was disconnected when Karam and I re-did the whole Feedback Page. [Ticket in Progress](https://github.com/TMarwah/P3Cowboys/issues/41) [Ticket In review](https://github.com/TMarwah/P3Cowboys/issues/38) |
-Allen Xu|  | 
+Allen Xu| Contineud work on the database and started to look into how to create our own API. We also have future plans to work with the P4 KPOP group and utlize their API onto our website. [Ticket in Progress (browse page)](https://github.com/TMarwah/P3Cowboys/issues/22) [Ticket in Review (API and database)](https://github.com/TMarwah/P3Cowboys/issues/40) |
 Marc Humeau| |
 Tanmay Marwah  |  |
 Karam Alshaikh | |
