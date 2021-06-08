@@ -14,6 +14,14 @@ Marc Humeau| https://github.com/marchumeau|
 Tanmay Marwah  | https://github.com/TMarwah |
 Karam Alshaikh |https://github.com/KaramAlshaikh |
 
+# Pre Final Project Team Checkpoint
+NAME             | Accomplishment |
+-------------    | --------------- |
+William Cherres  | I worked on the UI with Karam and was able to make the feedback page look more proffesional. I then was able to reconnect the Feedback Page back to the Response Page as it was disconnected when Karam and I re-did the whole Feedback Page. [Ticketin Progress](https://github.com/TMarwah/P3Cowboys/issues/41) [Ticket In review](https://github.com/TMarwah/P3Cowboys/issues/38) |
+Allen Xu|  | 
+Marc Humeau| |
+Tanmay Marwah  |  |
+Karam Alshaikh | |
 
 # Project Code Snippets (Layout for final project presentation)
 ## Browse Page (Allen)
