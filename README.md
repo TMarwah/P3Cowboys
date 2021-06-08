@@ -21,7 +21,7 @@ William Cherres  | I worked on the UI with Karam and was able to make the feedba
 Allen Xu| Contineud work on the database and started to look into how to create our own API. We also have future plans to work with the P4 KPOP group and utlize their API onto our website. [Ticket in Progress (browse page)](https://github.com/TMarwah/P3Cowboys/issues/22) [Ticket in Review (API and database)](https://github.com/TMarwah/P3Cowboys/issues/40) | 
 Marc Humeau| I worked on the browse page and was able to create a page that will be used for displaying business posts from the upload page in the future. I worked on this with Allen as he worked on the upload page with the form submission. [Ticket in Progress](https://github.com/TMarwah/P3Cowboys/issues/39), [Ticket in Review](https://github.com/TMarwah/P3Cowboys/issues/15) |
 Tanmay Marwah  |  |
-Karam Alshaikh | |
+Karam Alshaikh |I worked on the UI with Billy and mainly focused on improving the functionality of the feedback and login/sign up page, creating a more professional look for the website [Ticketin Progress](https://github.com/TMarwah/P3Cowboys/issues/28) [Ticket In review](https://github.com/TMarwah/P3Cowboys/issues/27) |   |
 
 # Project Code Snippets (Layout for final project presentation)
 ## Browse Page (Allen)
