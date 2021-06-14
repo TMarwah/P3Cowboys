@@ -21,6 +21,10 @@ Quote Page (+0.5 User interaction, +0.5 Technical, +1 Fun)
 - User can refresh the page to get a new response each time
 - Quotes add to the theme of the project by giving users inspirational quotes to help with their buisness ideas
 ## Individual Section
+Blueprints (+4 4 labs)
+- [Each folder](https://github.com/TMarwah/P3Cowboys/tree/e641f16f5d17751b83b95b243ae1013c0167d6c7/Cowboys) is labled with the corresponding member to indicate their individual blueprint
+Technicals
+- Each minilab utilizes [classes](https://github.com/TMarwah/P3Cowboys/blob/c44d5b580d1db0821e71453ef1be321120e6a9fd/Cowboys/Allen/minilab1.py#L2-L32) in order to pass in [parameters](https://github.com/TMarwah/P3Cowboys/blob/c44d5b580d1db0821e71453ef1be321120e6a9fd/Cowboys/Allen/app.py#L130) that cause different functions to run 
 ## API Section
 ## Deployment Section
 
