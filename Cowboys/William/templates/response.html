@@ -144,21 +144,25 @@
     }
 
 </style>
+    <style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
 <body>
-
+<table style="width:100%">
+    <caption>Responses</caption>
+    <tr>
+        <th>Company name</th>
+        <th>Feedback </th>
+    </tr>
+    <tr>
+        <td>{{input1}}</td>
+        <td>{{input2}}</td>
+    </tr>
+</table>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <pre>
-        <code>
-                <p>Company Name: {{input1}}</p>
-        </code>
-    </pre>
-    <pre>
-        <code>
-                <p> Feedback given: {{input2}} </p>
-        </code>
-    </pre>
 </body>
 </html>
 
