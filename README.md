@@ -16,7 +16,7 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
 
 # How It's Made
 ## Theme Section
-Quote Page (+0.5pt User interaction, +0.5pt Technical, +1pt Fun)
+[Quote Page](https://p3cowboys.nighthawkcodingsociety.com/quote/) (+0.5pt User interaction, +0.5pt Technical, +1pt Fun)
 - Quote page demonstrates usage and display of [online APIs](https://github.com/TMarwah/P3Cowboys/blob/e641f16f5d17751b83b95b243ae1013c0167d6c7/main.py#L31)
 - User can refresh the page to get a new response each time
 - Quotes add to the theme of the project by giving users inspirational quotes to help with their buisness ideas
@@ -27,6 +27,10 @@ Quote Page (+0.5pt User interaction, +0.5pt Technical, +1pt Fun)
     - Each minilab utilizes [classes](https://github.com/TMarwah/P3Cowboys/blob/c44d5b580d1db0821e71453ef1be321120e6a9fd/Cowboys/Allen/minilab1.py#L2-L32) in order to pass in [parameters](https://github.com/TMarwah/P3Cowboys/blob/c44d5b580d1db0821e71453ef1be321120e6a9fd/Cowboys/Allen/app.py#L130) that cause different functions to run 
     - 
 ## API Section
+- [API and Receiving](https://p3cowboys.nighthawkcodingsociety.com/quote/) (+2 Receive and API, +1 Visual)
+    - API for quotes is used [here](https://github.com/TMarwah/P3Cowboys/blob/e641f16f5d17751b83b95b243ae1013c0167d6c7/main.py#L31) and the author and quote is stored as jinja variables
+    - Jinja variables are then displayed on the front end [here](https://github.com/TMarwah/P3Cowboys/blob/d829f25775a369d12d43b9ad72c38f556e9b9064/templates/quotepage.html#L140-L150)
+    - 
 ## Deployment Section
 
 ## Browse Page (Allen)
