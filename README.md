@@ -14,7 +14,12 @@ Marc Humeau| https://github.com/marchumeau|
 Tanmay Marwah  | https://github.com/TMarwah |
 Karam Alshaikh |https://github.com/KaramAlshaikh |
 
-# Project Code Snippets (Layout for final project presentation)
+# How It's Made
+## Theme Section
+## Individual Section
+## API Section
+## Deployment Section
+
 ## Browse Page (Allen)
 - This code shows blah blah blah
 - Link to full code: 
