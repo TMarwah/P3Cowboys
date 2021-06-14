@@ -16,6 +16,10 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
 
 # How It's Made
 ## Theme Section
+Quote Page (+0.5 User interaction, +0.5 Technical, +1 Fun)
+- Quote page demonstrates usage and display of [online APIs](https://github.com/TMarwah/P3Cowboys/blob/e641f16f5d17751b83b95b243ae1013c0167d6c7/main.py#L31)
+- User can refresh the page to get a new response each time
+- Quotes add to the theme of the project by giving users inspirational quotes to help with their buisness ideas
 ## Individual Section
 ## API Section
 ## Deployment Section
