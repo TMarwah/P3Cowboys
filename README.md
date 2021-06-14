@@ -30,7 +30,7 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
 - [API and Receiving](https://p3cowboys.nighthawkcodingsociety.com/quote/) (+2 Receive and API, +1 Visual)
     - API for quotes is used [here](https://github.com/TMarwah/P3Cowboys/blob/e641f16f5d17751b83b95b243ae1013c0167d6c7/main.py#L31) and the author and quote is stored as jinja variables
     - Jinja variables are then displayed on the front end [here](https://github.com/TMarwah/P3Cowboys/blob/d829f25775a369d12d43b9ad72c38f556e9b9064/templates/quotepage.html#L140-L150)
-    - 
+    - Used png of quotes to emphasize the quote and highlighted text to be easily seen, with author cited at bottom right as well
 ## Deployment Section
 
 ## Browse Page (Allen)
