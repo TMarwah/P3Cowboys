@@ -32,7 +32,9 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
     - Jinja variables are then displayed on the front end [here](https://github.com/TMarwah/P3Cowboys/blob/d829f25775a369d12d43b9ad72c38f556e9b9064/templates/quotepage.html#L140-L150)
     - Used png of quotes to emphasize the quote and highlighted text to be easily seen, with author cited at bottom right as well
 ## Deployment Section
-
+- How It's Made section (+2pt)
+    - Located in readme, section is labled How Its Made, is what you are currently looking at
+- 
 ## Browse Page (Allen)
 - This code shows blah blah blah
 - Link to full code: 
