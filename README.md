@@ -45,7 +45,7 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
 - How It's Made section (+2pt How Its Made, +1pt Visuals)
     - Located in readme, section is labled How Its Made, is what you are currently looking at
 - Commercial (+2pt)
-    - 
+    - [Link to video](https://www.youtube.com/watch?v=XnYaSJoKWxE&ab_channel=Purplebears)
 # Code Explanations
 ## Profile Page (Karam)
 - [Link to the app.py](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/app.py)
