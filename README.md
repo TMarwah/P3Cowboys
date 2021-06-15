@@ -39,12 +39,7 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
 - How It's Made section (+2pt)
     - Located in readme, section is labled How Its Made, is what you are currently looking at
 - 
-## Browse Page (Allen)
-- This code shows blah blah blah
-- Link to full code: 
-```
-Insert code snippet here
-```
+# Code Explanations
 ## Profile Page (Karam)
 - [Link to the app.py](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/app.py)
 - [Link to full code for profile page](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/templates/Dashboard.html) 
@@ -95,7 +90,7 @@ def model():
 ```
 Insert code snippet here
 ```
-## Database (Marc)
+## Database (Marc and Allen)
 - This code shows the database that takes the user input from the upload page and connects it to the browse page.
 - [Link to full code for app.py](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/app.py)
 - [Link to database setup part 1](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/model.py)
