@@ -58,10 +58,51 @@ Insert code snippet here
 Insert code snippet here
 ```
 ## Database (Marc)
-- This code shows blah blah blah
-- Link to full code: 
+- This code shows the database that takes the user input from the upload page and connects it to the browse page.
+- [Link to full code for app.py](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/app.py)
+- [Link to database setup part 1](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/model.py)
+- [Link to database setup part 2](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/db.py)
+- [Link for browse page](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/templates/browse.html)
 ```
-Insert code snippet here
+@Cowboys_minilab1_bp.route('/cowboys/minilab1/browse')
+def browse():
+    backgrounds = ["https://cdn.discordapp.com/attachments/784178874303905792/818606015494094868/812382.png"]
+    review_query = Review.query.all()
+    reviews = []
+
+    for review in review_query:
+        websiteurl = url_for('get_img', id=review.id)
+
+        review_dict = {
+            'id': review.id,
+            'username': review.username,
+            'content': review.content,
+            'image':  websiteurl
+        }
+        reviews.append(review_dict)
+    return render_template("browse.html", reviews=reviews, background=random.choice(backgrounds))
+    
+@Cowboys_minilab1_bp.route('/cowboys/minilab1/upload', methods=["POST", 'GET'])
+def upload():
+    background = random.choice(backgrounds)
+    if request.method == "POST":
+        name = request.form["username"]
+        content = request.form["content"]
+        image = request.files.get('img')
+        if not image:
+            return 'bad news ur image did not make it to our servers :((((', 400
+
+        filename = secure_filename(image.filename)
+        mimetype = image.mimetype
+        if not filename or not mimetype:
+            return 'Bad upload', 400
+
+        review = Review(username=name, content=content, img=image.read(), filename=filename, mimetype=mimetype)
+        db.session.add(review)
+        db.session.commit()
+        return redirect(url_for("browse.html"))
+    return render_template("upload.html", background=background)
+    
 ```
 ## Feedback Page (Billy)
 - This code snippet shows the Usage of Get and Post to retrieve feedback and post it on the response page.
