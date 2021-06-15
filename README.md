@@ -41,10 +41,11 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
     - API for quotes is used [here](https://github.com/TMarwah/P3Cowboys/blob/e641f16f5d17751b83b95b243ae1013c0167d6c7/main.py#L31) and the author and quote is stored as jinja variables
     - Jinja variables are then displayed on the front end [here](https://github.com/TMarwah/P3Cowboys/blob/d829f25775a369d12d43b9ad72c38f556e9b9064/templates/quotepage.html#L140-L150)
     - Used png of quotes to emphasize the quote and highlighted text to be easily seen, with author cited at bottom right as well
-## Deployment Section (2pt)
-- How It's Made section (+2pt)
+## Deployment Section (5pt)
+- How It's Made section (+2pt How Its Made, +1pt Visuals)
     - Located in readme, section is labled How Its Made, is what you are currently looking at
-- 
+- Commercial (+2pt)
+    - 
 ## Browse Page (Allen)
 - This code shows blah blah blah
 - Link to full code: 
