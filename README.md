@@ -39,7 +39,12 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
 - How It's Made section (+2pt)
     - Located in readme, section is labled How Its Made, is what you are currently looking at
 - 
-# Code Explanations
+## Browse Page (Allen)
+- This code shows blah blah blah
+- Link to full code: 
+```
+Insert code snippet here
+```
 ## Profile Page (Karam)
 - [Link to the app.py](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/app.py)
 - [Link to full code for profile page](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/templates/Dashboard.html) 
@@ -85,12 +90,56 @@ def model():
 
 ```
 ## Login Page (Tanmay)
-- This code shows blah blah blah
-- Link to full code: 
+- This code shows the login page that accepts a username and password then identifies the user
+- [Link to full code for app.py](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Tanmay/app.py)
+- [Link for login page](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Tanmay/templates/login.html)
 ```
-Insert code snippet here
+from flask import Blueprint
+from flask import render_template, request
+from Cowboys.Tanmay.tanmayminilab import  Counters
+
+Cowboys_Tanmay_bp = Blueprint('Cowboys_Tanmay', __name__,
+                              template_folder='templates',
+                              static_folder='static', static_url_path='assets')
+
+class LoginForm(FlaskForm):
+    username = StringField('Username', validators=[DataRequired()])
+    password = PasswordField('Password', validators=[DataRequired()])
+    submit = SubmitField('Login')
+
+@Cowboys_Tanmay_bp.route('/login', methods=["POST", "GET"])
+def login_route():
+    logform = LoginForm()
+    if logform.validate_on_submit():
+        user = User.query.filter_by(username=logform.username.data).first()
+        if user is None or not user.check_password(logform.password.data):
+            flash("Login Failed")
+            return redirect("/login")
+        login_user(user)
+        flash("Login Successful!")
+        if logform.username.data == "secret":
+            return redirect("/secret")
+        nextpage = request.args.get("next")
+        if not nextpage or url_parse(nextpage).netloc != '':
+            return redirect('/')
+        return redirect(nextpage)
+    else:
+        return render_template("login.html", form = logform)
+
+@Cowboys_Tanmay_bp.route('/minilab', methods=["POST", "GET"])
+def minilab():
+    if(request.method == 'POST'):
+        sentence = request.form.get('sentence')
+        sentencesort = request.form.get('sentencesort')
+        input = sentence
+        input2 = sentencesort
+        return render_template("tanmayminilab.html",wordcount = Counters(input).wordcount(),
+                               lettercount = Counters(input).lettercount(), sorted = Counters(input2).bubblesort())
+
+    return render_template("tanmayminilab.html",wordcount = Counters(2).wordcount(),
+                           lettercount = Counters(2).lettercount(), sorted = Counters(2).bubblesort())
 ```
-## Database (Marc and Allen)
+## Database (Marc)
 - This code shows the database that takes the user input from the upload page and connects it to the browse page.
 - [Link to full code for app.py](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/app.py)
 - [Link to database setup part 1](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/model.py)
