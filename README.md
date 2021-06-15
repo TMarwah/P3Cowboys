@@ -46,8 +46,8 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
 Insert code snippet here
 ```
 ## Profile Page (Karam)
-- This code shows blah blah blah
-- Link to full code: 
+- [Link to the app.py](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/app.py)
+- [Link to full code for profile page](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/templates/Dashboard.html) 
 ```
 Insert code snippet here
 ```
