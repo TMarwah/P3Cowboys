@@ -46,12 +46,7 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
     - Located in readme, section is labled How Its Made, is what you are currently looking at
 - Commercial (+2pt)
     - 
-## Browse Page (Allen)
-- This code shows blah blah blah
-- Link to full code: 
-```
-Insert code snippet here
-```
+# Code Explanations
 ## Profile Page (Karam)
 - [Link to the app.py](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/app.py)
 - [Link to full code for profile page](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/templates/Dashboard.html) 
