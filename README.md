@@ -15,7 +15,7 @@ Tanmay Marwah  | https://github.com/TMarwah |
 Karam Alshaikh |https://github.com/KaramAlshaikh |
 
 # How It's Made
-## Theme Section
+## Theme Section (2pt)
 - [Quote Page](https://p3cowboys.nighthawkcodingsociety.com/quote/) (+0.5pt User interaction, +0.5pt Technical, +1pt Fun)
     - Quote page demonstrates usage and display of [online APIs](https://github.com/TMarwah/P3Cowboys/blob/e641f16f5d17751b83b95b243ae1013c0167d6c7/main.py#L31)
     - User can refresh the page to get a new response each time
@@ -24,18 +24,18 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
     - Upload page demonstrates usage and display of user interaction 
     - User can upload their websites advertisement and then it will be viewable from the "Browse" page
     - This relates to the theme as it is the main point of interaction for the advertisements to be posted
-## Individual Section
+## Individual Section (4.5pt)
 - Blueprints (+4pt 4 labs)
     - [Each folder](https://github.com/TMarwah/P3Cowboys/tree/e641f16f5d17751b83b95b243ae1013c0167d6c7/Cowboys) is labled with the corresponding member to indicate their individual blueprint
 - Technicals (+1pt 2 Technicals)
     - Each minilab utilizes [classes](https://github.com/TMarwah/P3Cowboys/blob/c44d5b580d1db0821e71453ef1be321120e6a9fd/Cowboys/Allen/minilab1.py#L2-L32) in order to pass in [parameters](https://github.com/TMarwah/P3Cowboys/blob/c44d5b580d1db0821e71453ef1be321120e6a9fd/Cowboys/Allen/app.py#L130) that cause different functions to run 
     - 
-## API Section
+## API Section (3pt)
 - [API and Receiving](https://p3cowboys.nighthawkcodingsociety.com/quote/) (+2 Receive and API, +1 Visual)
     - API for quotes is used [here](https://github.com/TMarwah/P3Cowboys/blob/e641f16f5d17751b83b95b243ae1013c0167d6c7/main.py#L31) and the author and quote is stored as jinja variables
     - Jinja variables are then displayed on the front end [here](https://github.com/TMarwah/P3Cowboys/blob/d829f25775a369d12d43b9ad72c38f556e9b9064/templates/quotepage.html#L140-L150)
     - Used png of quotes to emphasize the quote and highlighted text to be easily seen, with author cited at bottom right as well
-## Deployment Section
+## Deployment Section (2pt)
 - How It's Made section (+2pt)
     - Located in readme, section is labled How Its Made, is what you are currently looking at
 - 
