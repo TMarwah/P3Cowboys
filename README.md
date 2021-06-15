@@ -16,14 +16,14 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
 
 # How It's Made
 ## Theme Section
-[Quote Page](https://p3cowboys.nighthawkcodingsociety.com/quote/) (+0.5pt User interaction, +0.5pt Technical, +1pt Fun)
-- Quote page demonstrates usage and display of [online APIs](https://github.com/TMarwah/P3Cowboys/blob/e641f16f5d17751b83b95b243ae1013c0167d6c7/main.py#L31)
-- User can refresh the page to get a new response each time
-- Quotes add to the theme of the project by giving users inspirational quotes to help with their buisness ideas
-[Upload Page](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/templates/upload.html) (+0.5pt User interaction, +0.5pt Technical, +1pt Fun)
-- Upload page demonstrates usage and display of user interaction 
-- User can upload their websites advertisement and then it will be viewable from the "Browse" page
-- This relates to the theme as it is the main point of interaction for the advertisements to be posted
+- [Quote Page](https://p3cowboys.nighthawkcodingsociety.com/quote/) (+0.5pt User interaction, +0.5pt Technical, +1pt Fun)
+    - Quote page demonstrates usage and display of [online APIs](https://github.com/TMarwah/P3Cowboys/blob/e641f16f5d17751b83b95b243ae1013c0167d6c7/main.py#L31)
+    - User can refresh the page to get a new response each time
+    - Quotes add to the theme of the project by giving users inspirational quotes to help with their buisness ideas
+- [Upload Page](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/templates/upload.html) (+0.5pt User interaction, +0.5pt Technical, +1pt Fun)
+    - Upload page demonstrates usage and display of user interaction 
+    - User can upload their websites advertisement and then it will be viewable from the "Browse" page
+    - This relates to the theme as it is the main point of interaction for the advertisements to be posted
 ## Individual Section
 - Blueprints (+4pt 4 labs)
     - [Each folder](https://github.com/TMarwah/P3Cowboys/tree/e641f16f5d17751b83b95b243ae1013c0167d6c7/Cowboys) is labled with the corresponding member to indicate their individual blueprint
