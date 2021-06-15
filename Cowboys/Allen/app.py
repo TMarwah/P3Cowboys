@@ -5,7 +5,7 @@ from Cowboys.Allen.model import Review
 import random, json
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import secure_filename
-#from .db import db, db_init
+from .db import db, db_init
 #with open('cowboys.allen.config.json') as file:
     #config = json.load(file)
 
@@ -13,7 +13,7 @@ app = Flask(__name__)
 # SQLAlchemy config. Read more: https://flask-sqlalchemy.palletsprojects.com/en/2.x/
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-#db_init(app)
+db_init(app)
 
 db = SQLAlchemy()
 
@@ -28,11 +28,11 @@ Cowboys_minilab1_bp = Blueprint('Cowboys_Allen', __name__,
 def index():
     return "Y2021 tri1 Home Site"
 
-#@Cowboys_minilab1_bp.route('/browse')
-#def browse():
-    #return render_template("browse.html")
+@Cowboys_minilab1_bp.route('/browse')
+def browse():
+    return render_template("browse.html")
 
-#@Cowboys_minilab1_bp.route('/cowboys/minilab1/browse')
+#@Cowboys_minilab1_bp.route('/browse')
 #def browse():
     #backgrounds = ["https://cdn.discordapp.com/attachments/784178874303905792/818606015494094868/812382.png"]
     #review_query = Review.query.all()
@@ -42,15 +42,15 @@ def index():
         #websiteurl = url_for('get_img', id=review.id)
 
         #review_dict = {
-           # 'id': review.id,
-           # 'username': review.username,
-           # 'content': review.content,
+            #'id': review.id,
+            #'username': review.username,
+            #'content': review.content,
             #'image':  websiteurl
         #}
-       # reviews.append(review_dict)
+        #reviews.append(review_dict)
     #return render_template("browse.html", reviews=reviews, background=random.choice(backgrounds))
 
-@Cowboys_minilab1_bp.route('/cowboys/minilab1/upload', methods=["POST", 'GET'])
+@Cowboys_minilab1_bp.route('/upload', methods=["POST", 'GET'])
 def upload():
     background = random.choice(backgrounds)
     if request.method == "POST":
