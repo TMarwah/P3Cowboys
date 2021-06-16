@@ -1,5 +1,5 @@
 from flask import Blueprint
-from flask import render_template, request
+from flask import render_template, request, redirect, url_for
 from Cowboys.Tanmay.tanmayminilab import  Counters
 
 Cowboys_Tanmay_bp = Blueprint('Cowboys_Tanmay', __name__,
@@ -8,9 +8,16 @@ Cowboys_Tanmay_bp = Blueprint('Cowboys_Tanmay', __name__,
 
 
 
-@Cowboys_Tanmay_bp.route('/login')
+@Cowboys_Tanmay_bp.route('/login',methods=['GET', 'POST'])
 def login():
-    return render_template("login.html")
+    error = None
+    if request.method == 'POST':
+        if request.form['email'] != 'admin@gmail.com' or request.form['psw'] != 'admin':
+            error = 'Invalid Credentials. Please try again.'
+        else:
+            return redirect(url_for('Cowboys_Allen.upload'))
+    return render_template('login.html', error=error)
+
 
 @Cowboys_Tanmay_bp.route('/minilab', methods=["POST", "GET"])
 def minilab():
