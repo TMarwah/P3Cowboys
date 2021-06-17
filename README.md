@@ -63,6 +63,15 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
         - [Vowel sort is integrated](https://github.com/TMarwah/P3Cowboys/blob/6df3671f0030a5df9d9ce5757ad3075caf1bc916/Cowboys/Marc/marcminilab.py#L53-L65) into my minilab as the sort option on the site
         - [Calculator class](https://github.com/TMarwah/P3Cowboys/blob/6df3671f0030a5df9d9ce5757ad3075caf1bc916/Cowboys/Marc/marcminilab.py#L28-L43) demonstrates application of calculations as technicals
 
+- [Tanmay Marwah Minilab](https://p3cowboys.nighthawkcodingsociety.com/cowboys/tanmay/minilab)(+4pt)
+    - Labs (+2pt)
+        - [Each folder](https://github.com/TMarwah/P3Cowboys/tree/e641f16f5d17751b83b95b243ae1013c0167d6c7/Cowboys) is labled with the corresponding member to indicate their individual blueprint
+        - In my minilab it contains my [word count lab](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Tanmay/tanmayminilab.py) my [letter count lab](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Tanmay/tanmayminilab.py), and my [sentence bubble sort lab](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Tanmay/tanmayminilab.py)
+    - Technicals (+2pt 4 Technicals)
+        - Each minilab utilizes [classes](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Tanmay/tanmayminilab.py) in order to pass in [parameters](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Tanmay/app.py) that cause different functions to run 
+        - Minilab uses jinja to [store the output as "output"](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Tanmay/templates/tanmayminilab.html) and [display on the html page](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Tanmay/templates/tanmayminilab.html)
+        - Bubble sort is directly displayed on the html page
+        - [Counting algorithm](https://github.com/TMarwah/P3Cowboys/blob/a78ac9d42e614fddfd695630513e4eb9354e3e80/Cowboys/Tanmay/tanmayminilab.py#L6-L18) demonstrates application of iteration thorugh lists and segmentation of a string
 ## API Section (3pt)
 - [API and Receiving](https://p3cowboys.nighthawkcodingsociety.com/quote/) (+2 Receive and API, +1 Visual)
     - API for quotes is used [here](https://github.com/TMarwah/P3Cowboys/blob/e641f16f5d17751b83b95b243ae1013c0167d6c7/main.py#L31) and the author and quote is stored as jinja variables
