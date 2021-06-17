@@ -40,6 +40,17 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
         - Minilab uses jinja to [store the output as "output"](https://github.com/TMarwah/P3Cowboys/blob/c6b481da0eb21c5b3b89e0ba440dd896a4c716a1/Cowboys/Allen/app.py#L89) and [display on the html page](https://github.com/TMarwah/P3Cowboys/blob/6df3671f0030a5df9d9ce5757ad3075caf1bc916/Cowboys/Allen/templates/minilab1.html#L24-L28)
         - [Bubble sort is integrated](https://github.com/TMarwah/P3Cowboys/blob/6df3671f0030a5df9d9ce5757ad3075caf1bc916/Cowboys/Allen/minilab1.py#L10-L21) into my minilab as the sort option on the site
         - [Average value algorithm](https://github.com/TMarwah/P3Cowboys/blob/6df3671f0030a5df9d9ce5757ad3075caf1bc916/Cowboys/Allen/minilab1.py#L23-L32) demonstrates application of iteration thorugh lists and calculations as technicals
+
+- [Marc Humeau Minilab](https://p3cowboys.nighthawkcodingsociety.com/cowboys/marc/sort)(+4pt)
+    - Labs (+2pt)
+        - [Each folder](https://github.com/TMarwah/P3Cowboys/tree/main/Cowboys/Marc) is labled with the corresponding member to indicate their individual blueprint
+        - In my minilab it contains my [bubble sort lab](https://github.com/TMarwah/P3Cowboys/blob/9d6b193f53c4f8bc34c60b7b45f0d3d79ef45321/Cowboys/Marc/marcminilab.py#L53-L85) and an [calculator lab](https://github.com/TMarwah/P3Cowboys/blob/9d6b193f53c4f8bc34c60b7b45f0d3d79ef45321/Cowboys/Marc/marcminilab.py#L28-L43)
+    - Technicals (+2pt 4 Technicals)
+        - Each minilab utilizes [classes](https://github.com/TMarwah/P3Cowboys/blob/9d6b193f53c4f8bc34c60b7b45f0d3d79ef45321/Cowboys/Marc/marcminilab.py#L53-L85) in order to pass in [parameters](https://github.com/TMarwah/P3Cowboys/blob/9d6b193f53c4f8bc34c60b7b45f0d3d79ef45321/Cowboys/Marc/app.py#L45-L49) that cause different functions to run 
+        - Minilab uses jinja to [store the output as "output"](https://github.com/TMarwah/P3Cowboys/blob/9d6b193f53c4f8bc34c60b7b45f0d3d79ef45321/Cowboys/Marc/app.py#L48) and [display on the html page](https://github.com/TMarwah/P3Cowboys/blob/9d6b193f53c4f8bc34c60b7b45f0d3d79ef45321/Cowboys/Marc/templates/sort.html#L79)
+        - [Vowel sort is integrated](https://github.com/TMarwah/P3Cowboys/blob/6df3671f0030a5df9d9ce5757ad3075caf1bc916/Cowboys/Marc/marcminilab.py#L53-L65) into my minilab as the sort option on the site
+        - [Calculator class](https://github.com/TMarwah/P3Cowboys/blob/6df3671f0030a5df9d9ce5757ad3075caf1bc916/Cowboys/Marc/marcminilab.py#L28-L43) demonstrates application of calculations as technicals
+
 ## API Section (3pt)
 - [API and Receiving](https://p3cowboys.nighthawkcodingsociety.com/quote/) (+2 Receive and API, +1 Visual)
     - API for quotes is used [here](https://github.com/TMarwah/P3Cowboys/blob/e641f16f5d17751b83b95b243ae1013c0167d6c7/main.py#L31) and the author and quote is stored as jinja variables
