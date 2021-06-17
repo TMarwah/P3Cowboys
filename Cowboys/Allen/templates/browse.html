@@ -1,30 +1,40 @@
 {% extends "base.html" %}
 
 {% block body %}
-{% if reviews|length > 0 %}
-{% for review in reviews|reverse %}
-<div class="box">
-    <div class="property-card">
-        <a href="{{review.image}}">
-            <div class="property-image">
-                <img class="property-image" src="{{review.image}}">
-                <div class="property-image-title">
-                    <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
-                </div>
-            </div></a>
-        <div class="property-description">
-            <h5> {{review.username}} </h5>
-            <p>{{review.content}}</p>
-            <p>ID {{review.id}}</p>
-        </div>
-        <a href="#">
-            <!-- I would usually put multiple divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
-        </a>
-    </div>
-</div>
-{% endfor %}
-{% else %}
-{% endif %}
+
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 65%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #CF9FFF;
+  color: white;
+</style>
+<table id="customers">
+    <tr>
+        <th>Company</th>
+        <th>Service </th>
+    </tr>
+    <tr>
+        <td>{{input1}}</td>
+        <td>{{input2}}</td>
+    </tr>
+</table>
 
 
 <style>
