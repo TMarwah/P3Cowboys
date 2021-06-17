@@ -41,8 +41,8 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
     - Blueprints (+1pt)
         - [Folder](https://github.com/TMarwah/P3Cowboys/tree/e641f16f5d17751b83b95b243ae1013c0167d6c7/Cowboys) is labled with the corresponding member to indicate their individual blueprint
     - Technicals (+1pt 2 Technicals)
-        - Minilab 1 utilizes [classes](https://github.com/TMarwah/P3Cowboys/blob/c6b481da0eb21c5b3b89e0ba440dd896a4c716a1/Cowboys/Marc/marcminilab.py#L28-L43) in order to pass in [parameters](https://github.com/TMarwah/P3Cowboys/blob/c6b481da0eb21c5b3b89e0ba440dd896a4c716a1/Cowboys/Marc/app.py#L10-L28) that cause different functions to run 
-        - 
+        - [Calculator Minilab](https://p3cowboys.nighthawkcodingsociety.com/cowboys/marc/minilab) utilizes [classes](https://github.com/TMarwah/P3Cowboys/blob/c6b481da0eb21c5b3b89e0ba440dd896a4c716a1/Cowboys/Marc/marcminilab.py#L28-L43) in order to pass in [parameters](https://github.com/TMarwah/P3Cowboys/blob/c6b481da0eb21c5b3b89e0ba440dd896a4c716a1/Cowboys/Marc/app.py#L10-L28) that cause different functions to run 
+        - [Sorting Minilab](https://p3cowboys.nighthawkcodingsociety.com/cowboys/marc/sort) utilizes [classes](https://github.com/TMarwah/P3Cowboys/blob/c6b481da0eb21c5b3b89e0ba440dd896a4c716a1/Cowboys/Marc/marcminilab.py#L53-L85) in order to pass in [parameters](https://github.com/TMarwah/P3Cowboys/blob/6df3671f0030a5df9d9ce5757ad3075caf1bc916/Cowboys/Marc/app.py#L37-L49) that cause different functions to run 
 ## API Section (3pt)
 - [API and Receiving](https://p3cowboys.nighthawkcodingsociety.com/quote/) (+2 Receive and API, +1 Visual)
     - API for quotes is used [here](https://github.com/TMarwah/P3Cowboys/blob/e641f16f5d17751b83b95b243ae1013c0167d6c7/main.py#L31) and the author and quote is stored as jinja variables
