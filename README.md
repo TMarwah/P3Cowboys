@@ -31,6 +31,17 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
     - [Link to database setup part 2](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/db.py)
     - [Link for browse page](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/templates/browse.html)
 ## Individual Section
+
+-[Karam Alshaikh minilab] (https://p3cowboys.nighthawkcodingsociety.com/cowboys/karam/karamminilab) (+4.5pt)
+    - Blueprints
+        - [Each folder](https://github.com/TMarwah/P3Cowboys/tree/e641f16f5d17751b83b95b243ae1013c0167d6c7/Cowboys) is labled with the corresponding member to indicate their individual blueprint
+    - Minilabs (+3pts)
+            - [Bubblesort lab] (https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/karamminilab.py#L48), [Caracal minilab] (https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/karamminilab.py#L10, and my [User-input minilab] (https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/User%20input%20karamminilab.py#L10
+        - Technicals (+1,5pt 2 Technicals)
+            - [Caracal minilab] (https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/app.py#L15) utilizes [classes] (https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/karamminilab.py#L1) in order to pass in [parameters] (https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/app.py#L15)
+            - [Bubblesort minilab] utilizes [classes] (https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/karamminilab.py#L48] in order to pass in [parameters] (https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/app.py#L31]
+            - [User-input minilab] (https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/User%20input%20karamminilab.py#L1) utilizes classes and can be used via terminal code (like repl)
+            
 - [Allen Xu Minilab](https://p3cowboys.nighthawkcodingsociety.com/cowboys/minilab1/minilab)(+4pt)
     - Labs (+2pt)
         - [Each folder](https://github.com/TMarwah/P3Cowboys/tree/e641f16f5d17751b83b95b243ae1013c0167d6c7/Cowboys) is labled with the corresponding member to indicate their individual blueprint
