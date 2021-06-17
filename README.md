@@ -31,7 +31,7 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
     - [Link to database setup part 2](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/db.py)
     - [Link for browse page](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/templates/browse.html)
 ## Individual Section
-- [Allen Xu Minilab](https://p3cowboys.nighthawkcodingsociety.com/cowboys/minilab1/minilab)
+- [Allen Xu Minilab](https://p3cowboys.nighthawkcodingsociety.com/cowboys/minilab1/minilab)(+4pt)
     - Labs (+2pt)
         - [Each folder](https://github.com/TMarwah/P3Cowboys/tree/e641f16f5d17751b83b95b243ae1013c0167d6c7/Cowboys) is labled with the corresponding member to indicate their individual blueprint
         - In my minilab it contains my [bubble sort lab](https://github.com/TMarwah/P3Cowboys/blob/6df3671f0030a5df9d9ce5757ad3075caf1bc916/Cowboys/Allen/minilab1.py#L10-L21) and an [average value lab](https://github.com/TMarwah/P3Cowboys/blob/6df3671f0030a5df9d9ce5757ad3075caf1bc916/Cowboys/Allen/minilab1.py#L23-L32)
