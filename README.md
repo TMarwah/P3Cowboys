@@ -1,7 +1,7 @@
 # P3 Cowboys Advertisement site
 GitHub Repo for the Period 3 Cowboys Team
 # Links
-- [Website link](http://p3cowboys.pentahex.xyz:8080/)
+- [Website link](https://p3cowboys.nighthawkcodingsociety.com/)
 - [Project Ticket Board](https://github.com/TMarwah/P3Cowboys/projects/1)
 - [Project Plan + Ideas](https://docs.google.com/document/d/1NUglOHAQ0yPWXlH5ESuNnhjRK4Zx0Qv2SCLvOVtnDrY/edit?usp=sharing)
 - [Blueprints for project with different url for each person](https://github.com/TMarwah/P3Cowboys/blob/2171223a6bce49fae78ed343d555b93a0db4597a/app/app.py#L16-L20)
