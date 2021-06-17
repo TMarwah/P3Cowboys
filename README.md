@@ -36,6 +36,12 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
         - [Each folder](https://github.com/TMarwah/P3Cowboys/tree/e641f16f5d17751b83b95b243ae1013c0167d6c7/Cowboys) is labled with the corresponding member to indicate their individual blueprint
     - Technicals (+1pt 2 Technicals)
         - Each minilab utilizes [classes](https://github.com/TMarwah/P3Cowboys/blob/c44d5b580d1db0821e71453ef1be321120e6a9fd/Cowboys/Allen/minilab1.py#L2-L32) in order to pass in [parameters](https://github.com/TMarwah/P3Cowboys/blob/c44d5b580d1db0821e71453ef1be321120e6a9fd/Cowboys/Allen/app.py#L130) that cause different functions to run 
+
+- Marc Humeau
+    - Blueprints (+1pt)
+        - [Folder](https://github.com/TMarwah/P3Cowboys/tree/e641f16f5d17751b83b95b243ae1013c0167d6c7/Cowboys) is labled with the corresponding member to indicate their individual blueprint
+    - Technicals (+1pt 2 Technicals)
+        - Minilab 1 utilizes [classes](https://github.com/TMarwah/P3Cowboys/blob/c6b481da0eb21c5b3b89e0ba440dd896a4c716a1/Cowboys/Marc/marcminilab.py#L28-L43) in order to pass in [parameters](https://github.com/TMarwah/P3Cowboys/blob/c6b481da0eb21c5b3b89e0ba440dd896a4c716a1/Cowboys/Marc/app.py#L10-L28) that cause different functions to run 
         - 
 ## API Section (3pt)
 - [API and Receiving](https://p3cowboys.nighthawkcodingsociety.com/quote/) (+2 Receive and API, +1 Visual)
