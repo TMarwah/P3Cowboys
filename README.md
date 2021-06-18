@@ -32,11 +32,11 @@ Karam Alshaikh |https://github.com/KaramAlshaikh |
     - [Link for browse page](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Allen/templates/browse.html)
 ## Individual Section
  
- - [Karam Alshaikh Minilab](https://p3cowboys.nighthawkcodingsociety.com/cowboys/karam/karamminilab)(+4.5pt)
+ - [Karam Alshaikh Minilab](https://p3cowboys.nighthawkcodingsociety.com/cowboys/karam/karamminilab)(+5pt)
     - Labs (+3pt)
         - [Each folder](https://github.com/TMarwah/P3Cowboys/tree/e641f16f5d17751b83b95b243ae1013c0167d6c7/Cowboys) is labled with the corresponding member to indicate their individual blueprint
         - In my minilab it contains my [bubble sort lab](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/karamminilab.py#L48-L65), a [Caracal lab](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/karamminilab.py#L1-L30), and a [user-input lab](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/User%20input%20karamminilab.py#L1-L43)
-    - Technicals (+1.5pt 3 Technicals)
+    - Technicals (+2pt 4 Technicals)
         - Each minilab utilizes [classes](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/karamminilab.py#L1-L48) in order to pass in [parameters](https://github.com/TMarwah/P3Cowboys/blob/9d6b193f53c4f8bc34c60b7b45f0d3d79ef45321/Cowboys/Karam/app.py#L29-L31) that cause different functions to run 
         - Minilab uses jinja to [store the output as "output"](https://github.com/TMarwah/P3Cowboys/blob/main/Cowboys/Karam/app.py#L31) and [display on the html page](https://github.com/TMarwah/P3Cowboys/blob/6df3671f0030a5df9d9ce5757ad3075caf1bc916/Cowboys/Karam/templates/karamminilab.html#L97-L100)
         - [Character sort is integrated](https://github.com/TMarwah/P3Cowboys/blob/6df3671f0030a5df9d9ce5757ad3075caf1bc916/Cowboys/Karam/karamminilab.py#L52-L65) into my minilab as the sort option on the site
